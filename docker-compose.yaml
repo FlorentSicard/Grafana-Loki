@@ -1,0 +1,22 @@
+
+services:
+
+  loki:
+    image: grafana/loki:3.0.0
+    container_name: loki
+    ports: 
+      - 3100:3100
+    volumes:
+      - ./config/loki/loki.yaml:/etc/loki/loki.yaml
+
+
+  promtail:
+    image: grafana/promtail:3.0.0
+    container_name: promtail
+    volumes:
+      - ./config/promtail/promtail-config.yaml:/mnt/config/promtail-config.yaml
+
+
+
+
+
