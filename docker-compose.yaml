@@ -25,10 +25,11 @@ services:
   promtail:
     image: grafana/promtail:3.0.0
     container_name: promtail
-    restart: always
     volumes:
-      - ./config/promtail/promtail-config.yaml:/mnt/config/promtail-config.yaml
-      - ./config/nginx_logs:/var/log/nginx
+      - ./config/promtail/promtail-config.yaml:/etc/promtail/promtail-config.yml
+      - ./config/nginx_logs:/var/log/nginx:ro
+    command:
+      - "-config.file=/etc/promtail/promtail-config.yml"
     depends_on:
       - loki
     networks:
