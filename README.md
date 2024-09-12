@@ -1,3 +1,3 @@
 # Grafana-Loki
 
-Test de lecture de logs avec Grafana & Loki en utilisant un générateur de faux logs.
+Récuperation de logs avec Loki, l'agent Promtail et envoi sur Grafana pour lecture
