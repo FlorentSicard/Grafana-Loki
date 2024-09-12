@@ -1,6 +1,14 @@
 
 services:
 
+  nginx:
+    image: nginx:stable-alpine3.20-perl
+    container_name: nginx
+    ports:
+      - 8080:80
+    volumes:
+      - ./config/nginx_logs:/var/log/nginx
+
   loki:
     image: grafana/loki:3.0.0
     container_name: loki
@@ -16,10 +24,9 @@ services:
     restart: always
     volumes:
       - ./config/promtail/promtail-config.yaml:/mnt/config/promtail-config.yaml
-      - /var/log:/var/log
-      - /var/lib/docker/containers:/var/lib/docker/containers:ro
-      - /var/run/docker.sock:/var/run/docker.sock
-    command: -config.file=/etc/promtail/docker-config.yaml
+      - ./nginx_logs:/var/log/nginx
+    command:
+      - "./config/promtail/promtail-config.yaml:/mnt/config/promatil-conig.yaml"
     depends_on:
       - loki
 
@@ -37,12 +44,12 @@ services:
       - GF_FEATURE_TOGGLES_ENABLE=accessControlOnCall lokiLogsDataplane
       - GF_INSTALL_PLUGINS=https://storage.googleapis.com/integration-artifacts/grafana-lokiexplore-app/grafana-lokiexplore-app-latest.zip;grafana-lokiexplore-app
     
-  fake_log_generator:
-    image: us-docker.pkg.dev/grafanalabs-global/docker-explore-logs-prod/fake-log-generator:latest
-    container_name: fake_log_generator
-    command: -url http://loki:3100/loki/api/v1/push
-    depends_on:
-      - loki
+  # fake_log_generator:
+  #   image: us-docker.pkg.dev/grafanalabs-global/docker-explore-logs-prod/fake-log-generator:latest
+  #   container_name: fake_log_generator
+  #   command: -url http://loki:3100/loki/api/v1/push
+  #   depends_on:
+  #     - loki
   
  
 
