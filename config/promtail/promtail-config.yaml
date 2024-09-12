@@ -16,7 +16,7 @@ scrape_configs:
       - targets:
         - localhost
         labels:
-        job: neginx
+        job: nginx
         __path__: /var/log/nginx/*.log
     refresh_interval: 5s
 
