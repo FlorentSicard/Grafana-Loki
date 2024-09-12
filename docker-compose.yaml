@@ -10,6 +10,19 @@ services:
     volumes:
       - ./config/loki/loki.yaml:/etc/loki/loki.yaml
 
+  promtail:
+    image: grafana/promtail:3.0.0
+    container_name: promtail
+    restart: always
+    volumes:
+      - ./config/promtail/promtail-config.yaml:/mnt/config/promtail-config.yaml
+      - /var/log:/var/log
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: -config.file=/etc/promtail/docker-config.yaml
+    depends_on:
+      - loki
+
   grafana:
     image: grafana/grafana:main
     container_name: grafana
@@ -21,11 +34,15 @@ services:
       - GF_AUTH_ANONYMOUS_ENABLED=true
       - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
       - GF_AUTH_DISABLE_LOGIN_FORM=true
+      - GF_FEATURE_TOGGLES_ENABLE=accessControlOnCall lokiLogsDataplane
+      - GF_INSTALL_PLUGINS=https://storage.googleapis.com/integration-artifacts/grafana-lokiexplore-app/grafana-lokiexplore-app-latest.zip;grafana-lokiexplore-app
     
   fake_log_generator:
     image: us-docker.pkg.dev/grafanalabs-global/docker-explore-logs-prod/fake-log-generator:latest
     container_name: fake_log_generator
     command: -url http://loki:3100/loki/api/v1/push
+    depends_on:
+      - loki
   
  
 
