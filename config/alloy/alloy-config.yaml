@@ -1,4 +1,47 @@
 logging {
   level  = "info"
   format = "logfmt"
+  write_to = [loki.process.nginx.receiver]
+}
+
+loki.source.api "nginx"{
+  http {
+    listen_address = "0.0.0.0"
+    listen_port = "3100"
+  }
+  forward_to = [loki.process.nginx.receiver]
+}
+
+loki.process "nginx" {
+  stage.labels {
+    values = {
+      service_name = "nginx",
+    }
+  }
+  forward_to = [loki.write.nginx.receiver]
+}
+
+local.file_match "nginx" {
+	path_targets = [{
+		__address__ = "localhost",
+		__path__    = "/var/log/nginx/*.log",
+	}]
+}
+
+loki.source.file "nginx" {
+	targets    = local.file_match.nginx.targets
+	forward_to = [loki.process.nginx.receiver]
+
+	decompression {
+		enabled = false
+		format  = "z"
+	}
+	legacy_positions_file = "/var/log/positions.yaml"
+}
+
+loki.write "nginx" {
+	endpoint {
+		url = "http://loki:3100/loki/api/v1/push"
+	}
+	external_labels = {}
 }
