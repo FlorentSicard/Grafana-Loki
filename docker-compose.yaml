@@ -26,12 +26,11 @@ services:
     image: grafana/alloy:latest
     container_name: alloy
     volumes:
-      - ./config/alloy/config-alloy.yaml:/etc/alloy/config.alloy:ro
+      - ./config/alloy/alloy-config.yaml:/etc/alloy/config.alloy
       - ./config/nginx_logs:/var/log/nginx:ro
     ports:
       - 12345:12345
-    command:
-      - run --server.http.listen-addr=0.0.0.0:12345 --storage.path=/var/lib/alloy/data \/etc/alloy/config.alloy
+    command: run --server.http.listen-addr=0.0.0.0:12345 --storage.path=/var/lib/alloy/data \/etc/alloy/config.alloy
     depends_on:
       - loki
     networks:
