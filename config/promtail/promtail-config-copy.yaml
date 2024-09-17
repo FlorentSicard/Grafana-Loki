@@ -24,15 +24,11 @@ scrape_configs:
           selector: '{app="intellio"}'
           stages:
           - regex:
-              expression: "(?P<timestamp>\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2})"
-          - replace:
-              expression: ".*"
-              replacement: "{.timestamp}"
-          # - timestamp:
-          #     source: timestamp
-          #     format: "2006-01-02T15:04:05"
-          # - output:
-          #     source: timestamp
-          #     format: '{{.timestamp}}'
+              expression: "(?P<timestamp>\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?)"
+          - timestamp:
+              format: "2006-01-02 15:04:05.999999999"
+              source: timestamp
+
+
 
     
