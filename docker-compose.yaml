@@ -26,10 +26,7 @@ services:
     image: grafana/promtail:3.0.0
     container_name: promtail
     volumes:
-      - ./config/promtail/promtail-config-copy.yaml:/etc/promtail/promtail-config.yml
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /var/lib/docker/containers:/var/lib/docker/containers
-#      - ./logs:/var/log/:ro
+      - ./config/promtail/promtail-config.yaml:/etc/promtail/promtail-config.yml
       - ./config/nginx_logs:/var/log/nginx:ro
     command:
       - "-config.file=/etc/promtail/promtail-config.yml"
