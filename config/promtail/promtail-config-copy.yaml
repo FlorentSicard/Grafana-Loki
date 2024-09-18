@@ -25,20 +25,44 @@ scrape_configs:
           selector: '{app="intellio"}'
           stages:
           - regex:
-              expression: '(?P<remote>[^\s]\d{1,3}\.\d{1,3})\.\d{1,3}\.\d{1,3} (?P<host>[^\s]*) (?P<user>[^\s]*) \[(?P<time>[^\]]*)\] "(?P<method>\S+)(?: +(?P<path>[^\"]*?)?(?:\?+\S*)?(?: +\S*)?)" (?P<code>[^\s]*) (?P<size>[^ ]*) "(?P<referer>[^\"]*)" "(?P<user_agent>[^\"]*)" (?P<cookie>[^\d]*)(?P<request_time_float>[^\s]*)'
+              expression: '(?P<remote>[^\s]\d{1,3}\.\d{1,3})\.\d{1,3}\.\d{1,3} (?P<host>[^\s]*) (?P<user>[^\s]*) \[(?P<time>[^\]]*)\] "(?P<method>\S+)(?: +(?P<path>[^\"]*?)?(?:\?+\S*)?(?: +\S*)?)" (?P<code>[^\s]*) (?P<size>[^ ]*) "(?P<referer>[^\"]*)" "(?P<agent>[^\"]*)" (?P<cookie>[^\d]*)(?P<request_time_float>[^\s]*)'
+          # - timestamp:
+          #     source: time
+          #     format: '02/Jan/2006:15:04:05 -0700'
           - labels:
               remote:
               host:
               user:
-              time:
               method:
               path: 
               code: 
               size:
               referer:
               agent:
-          - output:
-              source: remote
+          # - output:
+          #     source: path
+
+  - job_name: docker
+    docker_sd_configs:
+      - host: "unix:///var/run/docker.sock"
+        refresh_interval: 15s
+      - targets:
+        labels:
+          job: docker
+          app: docker
+        filters:
+          - name: label
+            values: ["com.docker.compose.project=myapp"]
+    relabel_configs:
+      - source_labels: ['__meta_docker_container_name']
+        regex: '/(.*)' 
+        target_label: 'container'
+
+
+
+
+        
+
 
 
 
