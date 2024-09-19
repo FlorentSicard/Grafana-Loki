@@ -41,8 +41,8 @@ scrape_configs:
               request_time_float:
           - labeldrop: # retire un label de la liste avant de l'envoyer à Loki
               - host
-          - replace: # remplace un élément du log
-              expression: ((?P<remote>[^\s]\d{1,3}\.\d{1,3})\.(?P<host>[^\s]\d{1,3}\.\d{1,3}))
+          - replace: # remplace le host de l'adresse IP par 0.0
+              expression: '(?:\d{1,3}\.){2}(?P<host>\d{1,3}\.\d{1,3})'
               replace: "0.0"
 
 
