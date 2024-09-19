@@ -39,6 +39,9 @@ scrape_configs:
               referer:
               agent:
               request_time_float:
+          # - timestamp:
+          #     source: time
+          #     format: RFC822
           - labeldrop: # retire un label de la liste avant de l'envoyer à Loki
               - host
           - replace: # remplace le host de l'adresse IP par 0.0
@@ -49,12 +52,6 @@ scrape_configs:
               source: path
               template: '{{ regexReplaceAll "(\\d+)" .path ":id" }}'
 
-
-
-
-
-
-        
 
 
 
