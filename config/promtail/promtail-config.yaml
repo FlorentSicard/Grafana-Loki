@@ -4,7 +4,7 @@ server:
   grpc_listen_port: 0
   log_level: "debug"
 
-positions:
+positions: # enregistrement de la position de lecture des logs de Promtail
   filename: /tmp/positions.yaml
   sync_period: 10s
   
@@ -20,7 +20,7 @@ scrape_configs:
           job: intellio
           app: intellio
           __path__: /var/log/nginx/*.log
-    pipeline_stages:
+    pipeline_stages: # Pipeline de modification des logs
       - match:
           selector: '{app="intellio"}'
           stages:
@@ -44,6 +44,10 @@ scrape_configs:
           - replace: # remplace le host de l'adresse IP par 0.0
               expression: '(?:\d{1,3}\.){2}(?P<host>\d{1,3}\.\d{1,3})'
               replace: "0.0"
+            #! Template à tester
+          - template: # remplace les nombres dans le chemin de l'URL par id. 
+              source: path
+              template: '{{ regexReplaceAll "(\\d+)" .path ":id" }}'
 
 
 
