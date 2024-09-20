@@ -20,12 +20,12 @@ scrape_configs:
           job: intellio
           app: intellio
           __path__: /var/log/nginx/*.log
-    pipeline_stages: # Pipeline de modification des logs
+    pipeline_stages:
       - match:
           selector: '{app="intellio"}'
           stages:
           - regex:
-              expression: '(?P<remote>[^\s]\d{1,3}\.\d{1,3})\.(?P<host>\d{1,3}\.\d{1,3}) (?P<user>[^\s]*) (?P<user_auth>[^\s]*) \[(?P<time>[^\]]*)\] "(?P<method>\S+)(?: +(?P<path>[^\"]*?)?(?:\?+\S*)?(?: +\S*)?)" (?P<code>[^\s]*) (?P<size>[^ ]*) "(?P<referer>[^\"]*)" "(?P<agent>[^\"]*)" (?P<request_time_float>[^\s]*)'
+              expression: '(?P<remote>[^\s]\d{1,3}\.\d{1,3})\.(?P<host>\d{1,3}\.\d{1,3}) (?P<user>[^\s]*) (?P<user_auth>[^\s]*) \[(?P<time>[^\]]*)\] "(?P<method>\S+) (?P<path>[^\s]+) (?P<protocol>[^\"]+)" (?P<code>[^\s]*) (?P<size>[^ ]*) "(?P<referer>[^\"]*)" "(?P<agent>[^\"]*)" (?P<extras>[^\s]*)'         
           - labels: # donne un nom à chaque élément de la REGEX
               remote:
               host:
@@ -33,23 +33,23 @@ scrape_configs:
               user_auth:
               time:
               method:
-              path: 
+              path:
+              protocol:
               code: 
               size:
               referer:
               agent:
-              request_time_float:
-          - labeldrop: # retire un label de la liste avant de l'envoyer à Loki
+              extras:
+          - labeldrop: # retire un label de la liste avant d'envoyer les logs à Loki
               - host
           - replace: # remplace le host de l'adresse IP par 0.0
               expression: '(?:\d{1,3}\.){2}(?P<host>\d{1,3}\.\d{1,3})'
               replace: "0.0"
-          - template: # remplace les nombres dans le chemin de l'URL par id. 
-              source: path
-              template: '{{ regexReplaceAll "(\\d+)" .path ":id" }}'
-
-
-
-
-
+          # - replace:
+          #     expression: '(?:[^\s]\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) [^\s]* [^\s]* \[[^\]]*\] "(?:\S+) (?P<path>[^\s]+) '
+          #     source: path
+          #     replace: "id"
+          # - template: 
+          #     source: path
+          #     template: '{{ regexReplaceAll "[0-9]+" (toString .path) "id" }}'
     

@@ -13071,3 +13071,2153 @@
 2024/09/20 08:24:13 [notice] 1#1: start worker process 40
 2024/09/20 08:24:27 [error] 30#30: *2 open() "/usr/share/nginx/html/11" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11 HTTP/1.1", host: "localhost:8080"
 2024/09/20 08:24:55 [error] 30#30: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 08:35:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 08:35:35 [notice] 32#32: gracefully shutting down
+2024/09/20 08:35:35 [notice] 32#32: exiting
+2024/09/20 08:35:35 [notice] 33#33: gracefully shutting down
+2024/09/20 08:35:35 [notice] 36#36: gracefully shutting down
+2024/09/20 08:35:35 [notice] 39#39: gracefully shutting down
+2024/09/20 08:35:35 [notice] 35#35: gracefully shutting down
+2024/09/20 08:35:35 [notice] 34#34: gracefully shutting down
+2024/09/20 08:35:35 [notice] 31#31: gracefully shutting down
+2024/09/20 08:35:35 [notice] 37#37: gracefully shutting down
+2024/09/20 08:35:35 [notice] 37#37: exiting
+2024/09/20 08:35:35 [notice] 30#30: gracefully shutting down
+2024/09/20 08:35:35 [notice] 40#40: gracefully shutting down
+2024/09/20 08:35:35 [notice] 38#38: gracefully shutting down
+2024/09/20 08:35:35 [notice] 32#32: exit
+2024/09/20 08:35:35 [notice] 33#33: exiting
+2024/09/20 08:35:35 [notice] 36#36: exiting
+2024/09/20 08:35:35 [notice] 39#39: exiting
+2024/09/20 08:35:35 [notice] 35#35: exiting
+2024/09/20 08:35:35 [notice] 34#34: exiting
+2024/09/20 08:35:35 [notice] 31#31: exiting
+2024/09/20 08:35:35 [notice] 34#34: exit
+2024/09/20 08:35:35 [notice] 37#37: exit
+2024/09/20 08:35:35 [notice] 30#30: exiting
+2024/09/20 08:35:35 [notice] 40#40: exiting
+2024/09/20 08:35:35 [notice] 38#38: exiting
+2024/09/20 08:35:35 [notice] 33#33: exit
+2024/09/20 08:35:35 [notice] 36#36: exit
+2024/09/20 08:35:35 [notice] 39#39: exit
+2024/09/20 08:35:35 [notice] 35#35: exit
+2024/09/20 08:35:35 [notice] 31#31: exit
+2024/09/20 08:35:35 [notice] 30#30: exit
+2024/09/20 08:35:35 [notice] 40#40: exit
+2024/09/20 08:35:35 [notice] 38#38: exit
+2024/09/20 08:35:35 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/09/20 08:35:35 [notice] 1#1: worker process 35 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:35:35 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/09/20 08:35:35 [notice] 1#1: worker process 36 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:35:35 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/09/20 08:35:35 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: worker process 33 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: worker process 34 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: worker process 38 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: worker process 39 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: worker process 40 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:35:35 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 08:35:35 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/09/20 08:35:35 [notice] 1#1: worker process 37 exited with code 0
+2024/09/20 08:35:35 [notice] 1#1: exit
+2024/09/20 08:35:43 [notice] 1#1: using the "epoll" event method
+2024/09/20 08:35:43 [notice] 1#1: nginx/1.26.2
+2024/09/20 08:35:43 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 08:35:43 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 08:35:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 08:35:43 [notice] 1#1: start worker processes
+2024/09/20 08:35:43 [notice] 1#1: start worker process 30
+2024/09/20 08:35:43 [notice] 1#1: start worker process 31
+2024/09/20 08:35:43 [notice] 1#1: start worker process 32
+2024/09/20 08:35:43 [notice] 1#1: start worker process 33
+2024/09/20 08:35:43 [notice] 1#1: start worker process 34
+2024/09/20 08:35:43 [notice] 1#1: start worker process 35
+2024/09/20 08:35:43 [notice] 1#1: start worker process 36
+2024/09/20 08:35:43 [notice] 1#1: start worker process 37
+2024/09/20 08:35:43 [notice] 1#1: start worker process 38
+2024/09/20 08:35:43 [notice] 1#1: start worker process 39
+2024/09/20 08:35:43 [notice] 1#1: start worker process 40
+2024/09/20 08:35:49 [error] 30#30: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 08:35:50 [error] 30#30: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 08:36:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 08:36:47 [notice] 31#31: gracefully shutting down
+2024/09/20 08:36:47 [notice] 30#30: gracefully shutting down
+2024/09/20 08:36:47 [notice] 33#33: gracefully shutting down
+2024/09/20 08:36:47 [notice] 33#33: exiting
+2024/09/20 08:36:47 [notice] 34#34: gracefully shutting down
+2024/09/20 08:36:47 [notice] 34#34: exiting
+2024/09/20 08:36:47 [notice] 37#37: gracefully shutting down
+2024/09/20 08:36:47 [notice] 37#37: exiting
+2024/09/20 08:36:47 [notice] 35#35: gracefully shutting down
+2024/09/20 08:36:47 [notice] 37#37: exit
+2024/09/20 08:36:47 [notice] 38#38: gracefully shutting down
+2024/09/20 08:36:47 [notice] 32#32: gracefully shutting down
+2024/09/20 08:36:47 [notice] 40#40: gracefully shutting down
+2024/09/20 08:36:47 [notice] 36#36: gracefully shutting down
+2024/09/20 08:36:47 [notice] 39#39: gracefully shutting down
+2024/09/20 08:36:47 [notice] 30#30: exiting
+2024/09/20 08:36:47 [notice] 33#33: exit
+2024/09/20 08:36:47 [notice] 30#30: exit
+2024/09/20 08:36:47 [notice] 34#34: exit
+2024/09/20 08:36:47 [notice] 35#35: exiting
+2024/09/20 08:36:47 [notice] 38#38: exiting
+2024/09/20 08:36:47 [notice] 32#32: exiting
+2024/09/20 08:36:47 [notice] 40#40: exiting
+2024/09/20 08:36:47 [notice] 32#32: exit
+2024/09/20 08:36:47 [notice] 36#36: exiting
+2024/09/20 08:36:47 [notice] 39#39: exiting
+2024/09/20 08:36:47 [notice] 35#35: exit
+2024/09/20 08:36:47 [notice] 39#39: exit
+2024/09/20 08:36:47 [notice] 38#38: exit
+2024/09/20 08:36:47 [notice] 40#40: exit
+2024/09/20 08:36:47 [notice] 36#36: exit
+2024/09/20 08:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/09/20 08:36:47 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: worker process 35 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 08:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/09/20 08:36:47 [notice] 1#1: worker process 33 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: worker process 34 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: worker process 36 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: worker process 37 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: worker process 38 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: worker process 39 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: worker process 40 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/09/20 08:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 08:36:47 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 08:36:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:36:49 [notice] 31#31: exiting
+2024/09/20 08:36:49 [notice] 31#31: exit
+2024/09/20 08:36:49 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 08:36:49 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 08:36:49 [notice] 1#1: exit
+2024/09/20 08:36:52 [notice] 1#1: using the "epoll" event method
+2024/09/20 08:36:52 [notice] 1#1: nginx/1.26.2
+2024/09/20 08:36:52 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 08:36:52 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 08:36:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 08:36:52 [notice] 1#1: start worker processes
+2024/09/20 08:36:52 [notice] 1#1: start worker process 30
+2024/09/20 08:36:52 [notice] 1#1: start worker process 31
+2024/09/20 08:36:52 [notice] 1#1: start worker process 32
+2024/09/20 08:36:52 [notice] 1#1: start worker process 33
+2024/09/20 08:36:52 [notice] 1#1: start worker process 34
+2024/09/20 08:36:52 [notice] 1#1: start worker process 35
+2024/09/20 08:36:52 [notice] 1#1: start worker process 36
+2024/09/20 08:36:52 [notice] 1#1: start worker process 37
+2024/09/20 08:36:52 [notice] 1#1: start worker process 38
+2024/09/20 08:36:52 [notice] 1#1: start worker process 39
+2024/09/20 08:36:52 [notice] 1#1: start worker process 40
+2024/09/20 08:36:56 [error] 30#30: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 08:37:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 08:37:43 [notice] 30#30: gracefully shutting down
+2024/09/20 08:37:43 [notice] 40#40: gracefully shutting down
+2024/09/20 08:37:43 [notice] 31#31: gracefully shutting down
+2024/09/20 08:37:43 [notice] 33#33: gracefully shutting down
+2024/09/20 08:37:43 [notice] 33#33: exiting
+2024/09/20 08:37:43 [notice] 32#32: gracefully shutting down
+2024/09/20 08:37:43 [notice] 34#34: gracefully shutting down
+2024/09/20 08:37:43 [notice] 34#34: exiting
+2024/09/20 08:37:43 [notice] 36#36: gracefully shutting down
+2024/09/20 08:37:43 [notice] 35#35: gracefully shutting down
+2024/09/20 08:37:43 [notice] 37#37: gracefully shutting down
+2024/09/20 08:37:43 [notice] 38#38: gracefully shutting down
+2024/09/20 08:37:43 [notice] 39#39: gracefully shutting down
+2024/09/20 08:37:43 [notice] 30#30: exiting
+2024/09/20 08:37:43 [notice] 40#40: exiting
+2024/09/20 08:37:43 [notice] 33#33: exit
+2024/09/20 08:37:43 [notice] 40#40: exit
+2024/09/20 08:37:43 [notice] 32#32: exiting
+2024/09/20 08:37:43 [notice] 34#34: exit
+2024/09/20 08:37:43 [notice] 36#36: exiting
+2024/09/20 08:37:43 [notice] 35#35: exiting
+2024/09/20 08:37:43 [notice] 37#37: exiting
+2024/09/20 08:37:43 [notice] 38#38: exiting
+2024/09/20 08:37:43 [notice] 39#39: exiting
+2024/09/20 08:37:43 [notice] 30#30: exit
+2024/09/20 08:37:43 [notice] 39#39: exit
+2024/09/20 08:37:43 [notice] 32#32: exit
+2024/09/20 08:37:43 [notice] 36#36: exit
+2024/09/20 08:37:43 [notice] 35#35: exit
+2024/09/20 08:37:43 [notice] 37#37: exit
+2024/09/20 08:37:43 [notice] 38#38: exit
+2024/09/20 08:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/09/20 08:37:43 [notice] 1#1: worker process 33 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: worker process 38 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/09/20 08:37:43 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: worker process 40 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 08:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 08:37:43 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: worker process 35 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: worker process 36 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: worker process 37 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: worker process 39 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/09/20 08:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/09/20 08:37:43 [notice] 1#1: worker process 34 exited with code 0
+2024/09/20 08:37:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 08:37:53 [notice] 1#1: using the "epoll" event method
+2024/09/20 08:37:53 [notice] 1#1: nginx/1.26.2
+2024/09/20 08:37:53 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 08:37:53 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 08:37:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 08:37:53 [notice] 1#1: start worker processes
+2024/09/20 08:37:53 [notice] 1#1: start worker process 22
+2024/09/20 08:37:53 [notice] 1#1: start worker process 23
+2024/09/20 08:37:53 [notice] 1#1: start worker process 24
+2024/09/20 08:37:53 [notice] 1#1: start worker process 25
+2024/09/20 08:37:53 [notice] 1#1: start worker process 26
+2024/09/20 08:37:53 [notice] 1#1: start worker process 27
+2024/09/20 08:37:53 [notice] 1#1: start worker process 28
+2024/09/20 08:37:53 [notice] 1#1: start worker process 29
+2024/09/20 08:37:53 [notice] 1#1: start worker process 30
+2024/09/20 08:37:53 [notice] 1#1: start worker process 31
+2024/09/20 08:37:53 [notice] 1#1: start worker process 32
+2024/09/20 08:37:57 [error] 23#23: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 08:37:58 [error] 23#23: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:34:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 09:34:04 [notice] 22#22: gracefully shutting down
+2024/09/20 09:34:04 [notice] 25#25: gracefully shutting down
+2024/09/20 09:34:04 [notice] 26#26: gracefully shutting down
+2024/09/20 09:34:04 [notice] 23#23: gracefully shutting down
+2024/09/20 09:34:04 [notice] 23#23: exiting
+2024/09/20 09:34:04 [notice] 31#31: gracefully shutting down
+2024/09/20 09:34:04 [notice] 24#24: gracefully shutting down
+2024/09/20 09:34:04 [notice] 32#32: gracefully shutting down
+2024/09/20 09:34:04 [notice] 27#27: gracefully shutting down
+2024/09/20 09:34:04 [notice] 30#30: gracefully shutting down
+2024/09/20 09:34:04 [notice] 29#29: gracefully shutting down
+2024/09/20 09:34:04 [notice] 29#29: exiting
+2024/09/20 09:34:04 [notice] 28#28: gracefully shutting down
+2024/09/20 09:34:04 [notice] 29#29: exit
+2024/09/20 09:34:04 [notice] 22#22: exiting
+2024/09/20 09:34:04 [notice] 25#25: exiting
+2024/09/20 09:34:04 [notice] 22#22: exit
+2024/09/20 09:34:04 [notice] 26#26: exiting
+2024/09/20 09:34:04 [notice] 23#23: exit
+2024/09/20 09:34:04 [notice] 26#26: exit
+2024/09/20 09:34:04 [notice] 31#31: exiting
+2024/09/20 09:34:04 [notice] 24#24: exiting
+2024/09/20 09:34:04 [notice] 31#31: exit
+2024/09/20 09:34:04 [notice] 32#32: exiting
+2024/09/20 09:34:04 [notice] 27#27: exiting
+2024/09/20 09:34:04 [notice] 30#30: exiting
+2024/09/20 09:34:04 [notice] 28#28: exiting
+2024/09/20 09:34:04 [notice] 25#25: exit
+2024/09/20 09:34:04 [notice] 28#28: exit
+2024/09/20 09:34:04 [notice] 24#24: exit
+2024/09/20 09:34:04 [notice] 32#32: exit
+2024/09/20 09:34:04 [notice] 27#27: exit
+2024/09/20 09:34:04 [notice] 30#30: exit
+2024/09/20 09:34:04 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 09:34:04 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:34:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 09:34:04 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 09:34:04 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:34:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 09:34:04 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 09:34:04 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:34:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 09:34:04 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 09:34:04 [notice] 1#1: exit
+2024/09/20 09:34:04 [notice] 1#1: using the "epoll" event method
+2024/09/20 09:34:04 [notice] 1#1: nginx/1.26.2
+2024/09/20 09:34:04 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 09:34:04 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 09:34:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 09:34:04 [notice] 1#1: start worker processes
+2024/09/20 09:34:04 [notice] 1#1: start worker process 22
+2024/09/20 09:34:04 [notice] 1#1: start worker process 23
+2024/09/20 09:34:04 [notice] 1#1: start worker process 24
+2024/09/20 09:34:04 [notice] 1#1: start worker process 25
+2024/09/20 09:34:04 [notice] 1#1: start worker process 26
+2024/09/20 09:34:04 [notice] 1#1: start worker process 27
+2024/09/20 09:34:04 [notice] 1#1: start worker process 28
+2024/09/20 09:34:04 [notice] 1#1: start worker process 29
+2024/09/20 09:34:04 [notice] 1#1: start worker process 30
+2024/09/20 09:34:04 [notice] 1#1: start worker process 31
+2024/09/20 09:34:04 [notice] 1#1: start worker process 32
+2024/09/20 09:34:45 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:34:45 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:34:45 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:37:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 09:37:43 [notice] 22#22: gracefully shutting down
+2024/09/20 09:37:43 [notice] 23#23: gracefully shutting down
+2024/09/20 09:37:43 [notice] 24#24: gracefully shutting down
+2024/09/20 09:37:43 [notice] 24#24: exiting
+2024/09/20 09:37:43 [notice] 27#27: gracefully shutting down
+2024/09/20 09:37:43 [notice] 27#27: exiting
+2024/09/20 09:37:43 [notice] 29#29: gracefully shutting down
+2024/09/20 09:37:43 [notice] 29#29: exiting
+2024/09/20 09:37:43 [notice] 30#30: gracefully shutting down
+2024/09/20 09:37:43 [notice] 26#26: gracefully shutting down
+2024/09/20 09:37:43 [notice] 22#22: exiting
+2024/09/20 09:37:43 [notice] 28#28: gracefully shutting down
+2024/09/20 09:37:43 [notice] 31#31: gracefully shutting down
+2024/09/20 09:37:43 [notice] 32#32: gracefully shutting down
+2024/09/20 09:37:43 [notice] 25#25: gracefully shutting down
+2024/09/20 09:37:43 [notice] 23#23: exiting
+2024/09/20 09:37:43 [notice] 24#24: exit
+2024/09/20 09:37:43 [notice] 27#27: exit
+2024/09/20 09:37:43 [notice] 29#29: exit
+2024/09/20 09:37:43 [notice] 30#30: exiting
+2024/09/20 09:37:43 [notice] 26#26: exiting
+2024/09/20 09:37:43 [notice] 28#28: exiting
+2024/09/20 09:37:43 [notice] 22#22: exit
+2024/09/20 09:37:43 [notice] 31#31: exiting
+2024/09/20 09:37:43 [notice] 32#32: exiting
+2024/09/20 09:37:43 [notice] 25#25: exiting
+2024/09/20 09:37:43 [notice] 23#23: exit
+2024/09/20 09:37:43 [notice] 30#30: exit
+2024/09/20 09:37:43 [notice] 26#26: exit
+2024/09/20 09:37:43 [notice] 28#28: exit
+2024/09/20 09:37:43 [notice] 31#31: exit
+2024/09/20 09:37:43 [notice] 32#32: exit
+2024/09/20 09:37:43 [notice] 25#25: exit
+2024/09/20 09:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 09:37:43 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 09:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 09:37:43 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 09:37:43 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 09:37:43 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 09:37:43 [notice] 1#1: exit
+2024/09/20 09:37:43 [notice] 1#1: using the "epoll" event method
+2024/09/20 09:37:43 [notice] 1#1: nginx/1.26.2
+2024/09/20 09:37:43 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 09:37:43 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 09:37:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 09:37:43 [notice] 1#1: start worker processes
+2024/09/20 09:37:43 [notice] 1#1: start worker process 22
+2024/09/20 09:37:43 [notice] 1#1: start worker process 23
+2024/09/20 09:37:43 [notice] 1#1: start worker process 24
+2024/09/20 09:37:43 [notice] 1#1: start worker process 25
+2024/09/20 09:37:43 [notice] 1#1: start worker process 26
+2024/09/20 09:37:43 [notice] 1#1: start worker process 27
+2024/09/20 09:37:43 [notice] 1#1: start worker process 28
+2024/09/20 09:37:43 [notice] 1#1: start worker process 29
+2024/09/20 09:37:43 [notice] 1#1: start worker process 30
+2024/09/20 09:37:43 [notice] 1#1: start worker process 31
+2024/09/20 09:37:43 [notice] 1#1: start worker process 32
+2024/09/20 09:38:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 09:38:27 [notice] 22#22: gracefully shutting down
+2024/09/20 09:38:27 [notice] 22#22: exiting
+2024/09/20 09:38:27 [notice] 23#23: gracefully shutting down
+2024/09/20 09:38:27 [notice] 25#25: gracefully shutting down
+2024/09/20 09:38:27 [notice] 25#25: exiting
+2024/09/20 09:38:27 [notice] 27#27: gracefully shutting down
+2024/09/20 09:38:27 [notice] 26#26: gracefully shutting down
+2024/09/20 09:38:27 [notice] 31#31: gracefully shutting down
+2024/09/20 09:38:27 [notice] 29#29: gracefully shutting down
+2024/09/20 09:38:27 [notice] 24#24: gracefully shutting down
+2024/09/20 09:38:27 [notice] 28#28: gracefully shutting down
+2024/09/20 09:38:27 [notice] 28#28: exiting
+2024/09/20 09:38:27 [notice] 30#30: gracefully shutting down
+2024/09/20 09:38:27 [notice] 28#28: exit
+2024/09/20 09:38:27 [notice] 32#32: gracefully shutting down
+2024/09/20 09:38:27 [notice] 32#32: exiting
+2024/09/20 09:38:27 [notice] 22#22: exit
+2024/09/20 09:38:27 [notice] 23#23: exiting
+2024/09/20 09:38:27 [notice] 25#25: exit
+2024/09/20 09:38:27 [notice] 27#27: exiting
+2024/09/20 09:38:27 [notice] 26#26: exiting
+2024/09/20 09:38:27 [notice] 31#31: exiting
+2024/09/20 09:38:27 [notice] 29#29: exiting
+2024/09/20 09:38:27 [notice] 24#24: exiting
+2024/09/20 09:38:27 [notice] 30#30: exiting
+2024/09/20 09:38:27 [notice] 24#24: exit
+2024/09/20 09:38:27 [notice] 32#32: exit
+2024/09/20 09:38:27 [notice] 23#23: exit
+2024/09/20 09:38:27 [notice] 27#27: exit
+2024/09/20 09:38:27 [notice] 26#26: exit
+2024/09/20 09:38:27 [notice] 31#31: exit
+2024/09/20 09:38:27 [notice] 29#29: exit
+2024/09/20 09:38:27 [notice] 30#30: exit
+2024/09/20 09:38:27 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 09:38:27 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:38:27 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 09:38:27 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 09:38:27 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 09:38:27 [notice] 1#1: exit
+2024/09/20 09:38:28 [notice] 1#1: using the "epoll" event method
+2024/09/20 09:38:28 [notice] 1#1: nginx/1.26.2
+2024/09/20 09:38:28 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 09:38:28 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 09:38:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 09:38:28 [notice] 1#1: start worker processes
+2024/09/20 09:38:28 [notice] 1#1: start worker process 22
+2024/09/20 09:38:28 [notice] 1#1: start worker process 23
+2024/09/20 09:38:28 [notice] 1#1: start worker process 24
+2024/09/20 09:38:28 [notice] 1#1: start worker process 25
+2024/09/20 09:38:28 [notice] 1#1: start worker process 26
+2024/09/20 09:38:28 [notice] 1#1: start worker process 27
+2024/09/20 09:38:28 [notice] 1#1: start worker process 28
+2024/09/20 09:38:28 [notice] 1#1: start worker process 29
+2024/09/20 09:38:28 [notice] 1#1: start worker process 30
+2024/09/20 09:38:28 [notice] 1#1: start worker process 31
+2024/09/20 09:38:28 [notice] 1#1: start worker process 32
+2024/09/20 09:38:32 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:38:33 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:38:33 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:46:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 09:46:40 [notice] 23#23: gracefully shutting down
+2024/09/20 09:46:40 [notice] 28#28: gracefully shutting down
+2024/09/20 09:46:40 [notice] 28#28: exiting
+2024/09/20 09:46:40 [notice] 24#24: gracefully shutting down
+2024/09/20 09:46:40 [notice] 24#24: exiting
+2024/09/20 09:46:40 [notice] 25#25: gracefully shutting down
+2024/09/20 09:46:40 [notice] 26#26: gracefully shutting down
+2024/09/20 09:46:40 [notice] 31#31: gracefully shutting down
+2024/09/20 09:46:40 [notice] 22#22: gracefully shutting down
+2024/09/20 09:46:40 [notice] 22#22: exiting
+2024/09/20 09:46:40 [notice] 29#29: gracefully shutting down
+2024/09/20 09:46:40 [notice] 29#29: exiting
+2024/09/20 09:46:40 [notice] 32#32: gracefully shutting down
+2024/09/20 09:46:40 [notice] 27#27: gracefully shutting down
+2024/09/20 09:46:40 [notice] 30#30: gracefully shutting down
+2024/09/20 09:46:40 [notice] 23#23: exiting
+2024/09/20 09:46:40 [notice] 28#28: exit
+2024/09/20 09:46:40 [notice] 24#24: exit
+2024/09/20 09:46:40 [notice] 25#25: exiting
+2024/09/20 09:46:40 [notice] 26#26: exiting
+2024/09/20 09:46:40 [notice] 31#31: exiting
+2024/09/20 09:46:40 [notice] 22#22: exit
+2024/09/20 09:46:40 [notice] 29#29: exit
+2024/09/20 09:46:40 [notice] 32#32: exiting
+2024/09/20 09:46:40 [notice] 27#27: exiting
+2024/09/20 09:46:40 [notice] 30#30: exiting
+2024/09/20 09:46:40 [notice] 23#23: exit
+2024/09/20 09:46:40 [notice] 25#25: exit
+2024/09/20 09:46:40 [notice] 26#26: exit
+2024/09/20 09:46:40 [notice] 31#31: exit
+2024/09/20 09:46:40 [notice] 32#32: exit
+2024/09/20 09:46:40 [notice] 27#27: exit
+2024/09/20 09:46:40 [notice] 30#30: exit
+2024/09/20 09:46:40 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 09:46:40 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:46:40 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 09:46:40 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 09:46:40 [notice] 1#1: exit
+2024/09/20 09:46:41 [notice] 1#1: using the "epoll" event method
+2024/09/20 09:46:41 [notice] 1#1: nginx/1.26.2
+2024/09/20 09:46:41 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 09:46:41 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 09:46:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 09:46:41 [notice] 1#1: start worker processes
+2024/09/20 09:46:41 [notice] 1#1: start worker process 22
+2024/09/20 09:46:41 [notice] 1#1: start worker process 23
+2024/09/20 09:46:41 [notice] 1#1: start worker process 24
+2024/09/20 09:46:41 [notice] 1#1: start worker process 25
+2024/09/20 09:46:41 [notice] 1#1: start worker process 26
+2024/09/20 09:46:41 [notice] 1#1: start worker process 27
+2024/09/20 09:46:41 [notice] 1#1: start worker process 28
+2024/09/20 09:46:41 [notice] 1#1: start worker process 29
+2024/09/20 09:46:41 [notice] 1#1: start worker process 30
+2024/09/20 09:46:41 [notice] 1#1: start worker process 31
+2024/09/20 09:46:41 [notice] 1#1: start worker process 32
+2024/09/20 09:46:46 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:46:46 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:46:47 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:49:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 09:49:01 [notice] 23#23: gracefully shutting down
+2024/09/20 09:49:01 [notice] 23#23: exiting
+2024/09/20 09:49:01 [notice] 26#26: gracefully shutting down
+2024/09/20 09:49:01 [notice] 26#26: exiting
+2024/09/20 09:49:01 [notice] 27#27: gracefully shutting down
+2024/09/20 09:49:01 [notice] 27#27: exiting
+2024/09/20 09:49:01 [notice] 22#22: gracefully shutting down
+2024/09/20 09:49:01 [notice] 22#22: exiting
+2024/09/20 09:49:01 [notice] 30#30: gracefully shutting down
+2024/09/20 09:49:01 [notice] 30#30: exiting
+2024/09/20 09:49:01 [notice] 29#29: gracefully shutting down
+2024/09/20 09:49:01 [notice] 24#24: gracefully shutting down
+2024/09/20 09:49:01 [notice] 31#31: gracefully shutting down
+2024/09/20 09:49:01 [notice] 32#32: gracefully shutting down
+2024/09/20 09:49:01 [notice] 25#25: gracefully shutting down
+2024/09/20 09:49:01 [notice] 25#25: exiting
+2024/09/20 09:49:01 [notice] 28#28: gracefully shutting down
+2024/09/20 09:49:01 [notice] 25#25: exit
+2024/09/20 09:49:01 [notice] 23#23: exit
+2024/09/20 09:49:01 [notice] 26#26: exit
+2024/09/20 09:49:01 [notice] 27#27: exit
+2024/09/20 09:49:01 [notice] 22#22: exit
+2024/09/20 09:49:01 [notice] 30#30: exit
+2024/09/20 09:49:01 [notice] 29#29: exiting
+2024/09/20 09:49:01 [notice] 24#24: exiting
+2024/09/20 09:49:01 [notice] 29#29: exit
+2024/09/20 09:49:01 [notice] 31#31: exiting
+2024/09/20 09:49:01 [notice] 31#31: exit
+2024/09/20 09:49:01 [notice] 32#32: exiting
+2024/09/20 09:49:01 [notice] 28#28: exiting
+2024/09/20 09:49:01 [notice] 24#24: exit
+2024/09/20 09:49:01 [notice] 32#32: exit
+2024/09/20 09:49:01 [notice] 28#28: exit
+2024/09/20 09:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 09:49:02 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 09:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 09:49:02 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 09:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 09:49:02 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 09:49:02 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 09:49:02 [notice] 1#1: exit
+2024/09/20 09:49:02 [notice] 1#1: using the "epoll" event method
+2024/09/20 09:49:02 [notice] 1#1: nginx/1.26.2
+2024/09/20 09:49:02 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 09:49:02 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 09:49:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 09:49:02 [notice] 1#1: start worker processes
+2024/09/20 09:49:02 [notice] 1#1: start worker process 21
+2024/09/20 09:49:02 [notice] 1#1: start worker process 22
+2024/09/20 09:49:02 [notice] 1#1: start worker process 23
+2024/09/20 09:49:02 [notice] 1#1: start worker process 24
+2024/09/20 09:49:02 [notice] 1#1: start worker process 25
+2024/09/20 09:49:02 [notice] 1#1: start worker process 26
+2024/09/20 09:49:02 [notice] 1#1: start worker process 27
+2024/09/20 09:49:02 [notice] 1#1: start worker process 28
+2024/09/20 09:49:02 [notice] 1#1: start worker process 29
+2024/09/20 09:49:02 [notice] 1#1: start worker process 30
+2024/09/20 09:49:02 [notice] 1#1: start worker process 31
+2024/09/20 09:49:07 [error] 21#21: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:49:08 [error] 21#21: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:51:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 09:51:10 [notice] 22#22: gracefully shutting down
+2024/09/20 09:51:10 [notice] 21#21: gracefully shutting down
+2024/09/20 09:51:10 [notice] 21#21: exiting
+2024/09/20 09:51:10 [notice] 29#29: gracefully shutting down
+2024/09/20 09:51:10 [notice] 29#29: exiting
+2024/09/20 09:51:10 [notice] 25#25: gracefully shutting down
+2024/09/20 09:51:10 [notice] 29#29: exit
+2024/09/20 09:51:10 [notice] 24#24: gracefully shutting down
+2024/09/20 09:51:10 [notice] 24#24: exiting
+2024/09/20 09:51:10 [notice] 28#28: gracefully shutting down
+2024/09/20 09:51:10 [notice] 31#31: gracefully shutting down
+2024/09/20 09:51:10 [notice] 27#27: gracefully shutting down
+2024/09/20 09:51:10 [notice] 30#30: gracefully shutting down
+2024/09/20 09:51:10 [notice] 26#26: gracefully shutting down
+2024/09/20 09:51:10 [notice] 23#23: gracefully shutting down
+2024/09/20 09:51:10 [notice] 22#22: exiting
+2024/09/20 09:51:10 [notice] 21#21: exit
+2024/09/20 09:51:10 [notice] 25#25: exiting
+2024/09/20 09:51:10 [notice] 24#24: exit
+2024/09/20 09:51:10 [notice] 28#28: exiting
+2024/09/20 09:51:10 [notice] 31#31: exiting
+2024/09/20 09:51:10 [notice] 27#27: exiting
+2024/09/20 09:51:10 [notice] 30#30: exiting
+2024/09/20 09:51:10 [notice] 26#26: exiting
+2024/09/20 09:51:10 [notice] 23#23: exiting
+2024/09/20 09:51:10 [notice] 22#22: exit
+2024/09/20 09:51:10 [notice] 25#25: exit
+2024/09/20 09:51:10 [notice] 28#28: exit
+2024/09/20 09:51:10 [notice] 31#31: exit
+2024/09/20 09:51:10 [notice] 27#27: exit
+2024/09/20 09:51:10 [notice] 30#30: exit
+2024/09/20 09:51:10 [notice] 26#26: exit
+2024/09/20 09:51:10 [notice] 23#23: exit
+2024/09/20 09:51:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 09:51:10 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 09:51:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:51:10 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 09:51:10 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 09:51:10 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 09:51:10 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 09:51:10 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 09:51:10 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 09:51:10 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 09:51:10 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 09:51:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:51:11 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 09:51:11 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 09:51:11 [notice] 1#1: worker process 21 exited with code 0
+2024/09/20 09:51:11 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 09:51:11 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 09:51:11 [notice] 1#1: exit
+2024/09/20 09:51:11 [notice] 1#1: using the "epoll" event method
+2024/09/20 09:51:11 [notice] 1#1: nginx/1.26.2
+2024/09/20 09:51:11 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 09:51:11 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 09:51:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 09:51:11 [notice] 1#1: start worker processes
+2024/09/20 09:51:11 [notice] 1#1: start worker process 22
+2024/09/20 09:51:11 [notice] 1#1: start worker process 23
+2024/09/20 09:51:11 [notice] 1#1: start worker process 24
+2024/09/20 09:51:11 [notice] 1#1: start worker process 25
+2024/09/20 09:51:11 [notice] 1#1: start worker process 26
+2024/09/20 09:51:11 [notice] 1#1: start worker process 27
+2024/09/20 09:51:11 [notice] 1#1: start worker process 28
+2024/09/20 09:51:11 [notice] 1#1: start worker process 29
+2024/09/20 09:51:11 [notice] 1#1: start worker process 30
+2024/09/20 09:51:11 [notice] 1#1: start worker process 31
+2024/09/20 09:51:11 [notice] 1#1: start worker process 32
+2024/09/20 09:51:22 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:51:23 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:51:23 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:57:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 09:57:20 [notice] 22#22: gracefully shutting down
+2024/09/20 09:57:20 [notice] 24#24: gracefully shutting down
+2024/09/20 09:57:20 [notice] 24#24: exiting
+2024/09/20 09:57:20 [notice] 27#27: gracefully shutting down
+2024/09/20 09:57:20 [notice] 27#27: exiting
+2024/09/20 09:57:20 [notice] 25#25: gracefully shutting down
+2024/09/20 09:57:20 [notice] 28#28: gracefully shutting down
+2024/09/20 09:57:20 [notice] 30#30: gracefully shutting down
+2024/09/20 09:57:20 [notice] 32#32: gracefully shutting down
+2024/09/20 09:57:20 [notice] 23#23: gracefully shutting down
+2024/09/20 09:57:20 [notice] 26#26: gracefully shutting down
+2024/09/20 09:57:20 [notice] 26#26: exiting
+2024/09/20 09:57:20 [notice] 29#29: gracefully shutting down
+2024/09/20 09:57:20 [notice] 26#26: exit
+2024/09/20 09:57:20 [notice] 22#22: exiting
+2024/09/20 09:57:20 [notice] 31#31: gracefully shutting down
+2024/09/20 09:57:20 [notice] 24#24: exit
+2024/09/20 09:57:20 [notice] 27#27: exit
+2024/09/20 09:57:20 [notice] 25#25: exiting
+2024/09/20 09:57:20 [notice] 28#28: exiting
+2024/09/20 09:57:20 [notice] 30#30: exiting
+2024/09/20 09:57:20 [notice] 32#32: exiting
+2024/09/20 09:57:20 [notice] 30#30: exit
+2024/09/20 09:57:20 [notice] 23#23: exiting
+2024/09/20 09:57:20 [notice] 29#29: exiting
+2024/09/20 09:57:20 [notice] 22#22: exit
+2024/09/20 09:57:20 [notice] 31#31: exiting
+2024/09/20 09:57:20 [notice] 25#25: exit
+2024/09/20 09:57:20 [notice] 28#28: exit
+2024/09/20 09:57:20 [notice] 32#32: exit
+2024/09/20 09:57:20 [notice] 23#23: exit
+2024/09/20 09:57:20 [notice] 29#29: exit
+2024/09/20 09:57:20 [notice] 31#31: exit
+2024/09/20 09:57:20 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 09:57:20 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:57:20 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 09:57:20 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 09:57:20 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 09:57:20 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 09:57:20 [notice] 1#1: exit
+2024/09/20 09:57:20 [notice] 1#1: using the "epoll" event method
+2024/09/20 09:57:20 [notice] 1#1: nginx/1.26.2
+2024/09/20 09:57:20 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 09:57:20 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 09:57:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 09:57:20 [notice] 1#1: start worker processes
+2024/09/20 09:57:20 [notice] 1#1: start worker process 22
+2024/09/20 09:57:20 [notice] 1#1: start worker process 23
+2024/09/20 09:57:20 [notice] 1#1: start worker process 24
+2024/09/20 09:57:20 [notice] 1#1: start worker process 25
+2024/09/20 09:57:20 [notice] 1#1: start worker process 26
+2024/09/20 09:57:20 [notice] 1#1: start worker process 27
+2024/09/20 09:57:20 [notice] 1#1: start worker process 28
+2024/09/20 09:57:20 [notice] 1#1: start worker process 29
+2024/09/20 09:57:20 [notice] 1#1: start worker process 30
+2024/09/20 09:57:20 [notice] 1#1: start worker process 31
+2024/09/20 09:57:20 [notice] 1#1: start worker process 32
+2024/09/20 09:57:26 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:57:27 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:57:27 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:58:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 09:58:52 [notice] 22#22: gracefully shutting down
+2024/09/20 09:58:52 [notice] 23#23: gracefully shutting down
+2024/09/20 09:58:52 [notice] 25#25: gracefully shutting down
+2024/09/20 09:58:52 [notice] 25#25: exiting
+2024/09/20 09:58:52 [notice] 27#27: gracefully shutting down
+2024/09/20 09:58:52 [notice] 27#27: exiting
+2024/09/20 09:58:52 [notice] 32#32: gracefully shutting down
+2024/09/20 09:58:52 [notice] 31#31: gracefully shutting down
+2024/09/20 09:58:52 [notice] 29#29: gracefully shutting down
+2024/09/20 09:58:52 [notice] 22#22: exiting
+2024/09/20 09:58:52 [notice] 30#30: gracefully shutting down
+2024/09/20 09:58:52 [notice] 28#28: gracefully shutting down
+2024/09/20 09:58:52 [notice] 26#26: gracefully shutting down
+2024/09/20 09:58:52 [notice] 24#24: gracefully shutting down
+2024/09/20 09:58:52 [notice] 23#23: exiting
+2024/09/20 09:58:52 [notice] 25#25: exit
+2024/09/20 09:58:52 [notice] 27#27: exit
+2024/09/20 09:58:52 [notice] 32#32: exiting
+2024/09/20 09:58:52 [notice] 31#31: exiting
+2024/09/20 09:58:52 [notice] 29#29: exiting
+2024/09/20 09:58:52 [notice] 22#22: exit
+2024/09/20 09:58:52 [notice] 30#30: exiting
+2024/09/20 09:58:52 [notice] 28#28: exiting
+2024/09/20 09:58:52 [notice] 26#26: exiting
+2024/09/20 09:58:52 [notice] 28#28: exit
+2024/09/20 09:58:52 [notice] 24#24: exiting
+2024/09/20 09:58:52 [notice] 23#23: exit
+2024/09/20 09:58:52 [notice] 32#32: exit
+2024/09/20 09:58:52 [notice] 31#31: exit
+2024/09/20 09:58:52 [notice] 29#29: exit
+2024/09/20 09:58:52 [notice] 30#30: exit
+2024/09/20 09:58:52 [notice] 26#26: exit
+2024/09/20 09:58:52 [notice] 24#24: exit
+2024/09/20 09:58:52 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 09:58:52 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:58:52 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 09:58:52 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 09:58:52 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 09:58:52 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 09:58:52 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 09:58:52 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 09:58:52 [notice] 1#1: exit
+2024/09/20 09:58:53 [notice] 1#1: using the "epoll" event method
+2024/09/20 09:58:53 [notice] 1#1: nginx/1.26.2
+2024/09/20 09:58:53 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 09:58:53 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 09:58:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 09:58:53 [notice] 1#1: start worker processes
+2024/09/20 09:58:53 [notice] 1#1: start worker process 22
+2024/09/20 09:58:53 [notice] 1#1: start worker process 23
+2024/09/20 09:58:53 [notice] 1#1: start worker process 24
+2024/09/20 09:58:53 [notice] 1#1: start worker process 25
+2024/09/20 09:58:53 [notice] 1#1: start worker process 26
+2024/09/20 09:58:53 [notice] 1#1: start worker process 27
+2024/09/20 09:58:53 [notice] 1#1: start worker process 28
+2024/09/20 09:58:53 [notice] 1#1: start worker process 29
+2024/09/20 09:58:53 [notice] 1#1: start worker process 30
+2024/09/20 09:58:53 [notice] 1#1: start worker process 31
+2024/09/20 09:58:53 [notice] 1#1: start worker process 32
+2024/09/20 09:59:15 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 09:59:15 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:00:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 10:00:43 [notice] 23#23: gracefully shutting down
+2024/09/20 10:00:43 [notice] 23#23: exiting
+2024/09/20 10:00:43 [notice] 24#24: gracefully shutting down
+2024/09/20 10:00:43 [notice] 24#24: exiting
+2024/09/20 10:00:43 [notice] 25#25: gracefully shutting down
+2024/09/20 10:00:43 [notice] 24#24: exit
+2024/09/20 10:00:43 [notice] 26#26: gracefully shutting down
+2024/09/20 10:00:43 [notice] 28#28: gracefully shutting down
+2024/09/20 10:00:43 [notice] 28#28: exiting
+2024/09/20 10:00:43 [notice] 27#27: gracefully shutting down
+2024/09/20 10:00:43 [notice] 31#31: gracefully shutting down
+2024/09/20 10:00:43 [notice] 29#29: gracefully shutting down
+2024/09/20 10:00:43 [notice] 22#22: gracefully shutting down
+2024/09/20 10:00:43 [notice] 32#32: gracefully shutting down
+2024/09/20 10:00:43 [notice] 30#30: gracefully shutting down
+2024/09/20 10:00:43 [notice] 23#23: exit
+2024/09/20 10:00:43 [notice] 25#25: exiting
+2024/09/20 10:00:43 [notice] 26#26: exiting
+2024/09/20 10:00:43 [notice] 28#28: exit
+2024/09/20 10:00:43 [notice] 26#26: exit
+2024/09/20 10:00:43 [notice] 27#27: exiting
+2024/09/20 10:00:43 [notice] 31#31: exiting
+2024/09/20 10:00:43 [notice] 29#29: exiting
+2024/09/20 10:00:43 [notice] 22#22: exiting
+2024/09/20 10:00:43 [notice] 29#29: exit
+2024/09/20 10:00:43 [notice] 32#32: exiting
+2024/09/20 10:00:43 [notice] 30#30: exiting
+2024/09/20 10:00:43 [notice] 25#25: exit
+2024/09/20 10:00:43 [notice] 27#27: exit
+2024/09/20 10:00:43 [notice] 31#31: exit
+2024/09/20 10:00:43 [notice] 22#22: exit
+2024/09/20 10:00:43 [notice] 32#32: exit
+2024/09/20 10:00:43 [notice] 30#30: exit
+2024/09/20 10:00:43 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 10:00:43 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:00:43 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 10:00:43 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:00:43 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 10:00:43 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 10:00:43 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 10:00:43 [notice] 1#1: exit
+2024/09/20 10:00:44 [notice] 1#1: using the "epoll" event method
+2024/09/20 10:00:44 [notice] 1#1: nginx/1.26.2
+2024/09/20 10:00:44 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 10:00:44 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 10:00:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 10:00:44 [notice] 1#1: start worker processes
+2024/09/20 10:00:44 [notice] 1#1: start worker process 22
+2024/09/20 10:00:44 [notice] 1#1: start worker process 23
+2024/09/20 10:00:44 [notice] 1#1: start worker process 24
+2024/09/20 10:00:44 [notice] 1#1: start worker process 25
+2024/09/20 10:00:44 [notice] 1#1: start worker process 26
+2024/09/20 10:00:44 [notice] 1#1: start worker process 27
+2024/09/20 10:00:44 [notice] 1#1: start worker process 28
+2024/09/20 10:00:44 [notice] 1#1: start worker process 29
+2024/09/20 10:00:44 [notice] 1#1: start worker process 30
+2024/09/20 10:00:44 [notice] 1#1: start worker process 31
+2024/09/20 10:00:44 [notice] 1#1: start worker process 32
+2024/09/20 10:00:49 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:00:50 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:00:50 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:02:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 10:02:17 [notice] 23#23: gracefully shutting down
+2024/09/20 10:02:17 [notice] 26#26: gracefully shutting down
+2024/09/20 10:02:17 [notice] 26#26: exiting
+2024/09/20 10:02:17 [notice] 22#22: gracefully shutting down
+2024/09/20 10:02:17 [notice] 22#22: exiting
+2024/09/20 10:02:17 [notice] 28#28: gracefully shutting down
+2024/09/20 10:02:17 [notice] 29#29: gracefully shutting down
+2024/09/20 10:02:17 [notice] 31#31: gracefully shutting down
+2024/09/20 10:02:17 [notice] 30#30: gracefully shutting down
+2024/09/20 10:02:17 [notice] 32#32: gracefully shutting down
+2024/09/20 10:02:17 [notice] 25#25: gracefully shutting down
+2024/09/20 10:02:17 [notice] 25#25: exiting
+2024/09/20 10:02:17 [notice] 27#27: gracefully shutting down
+2024/09/20 10:02:17 [notice] 27#27: exiting
+2024/09/20 10:02:17 [notice] 24#24: gracefully shutting down
+2024/09/20 10:02:17 [notice] 24#24: exiting
+2024/09/20 10:02:17 [notice] 23#23: exiting
+2024/09/20 10:02:17 [notice] 26#26: exit
+2024/09/20 10:02:17 [notice] 22#22: exit
+2024/09/20 10:02:17 [notice] 28#28: exiting
+2024/09/20 10:02:17 [notice] 29#29: exiting
+2024/09/20 10:02:17 [notice] 31#31: exiting
+2024/09/20 10:02:17 [notice] 30#30: exiting
+2024/09/20 10:02:17 [notice] 32#32: exiting
+2024/09/20 10:02:17 [notice] 25#25: exit
+2024/09/20 10:02:17 [notice] 27#27: exit
+2024/09/20 10:02:17 [notice] 24#24: exit
+2024/09/20 10:02:17 [notice] 23#23: exit
+2024/09/20 10:02:17 [notice] 28#28: exit
+2024/09/20 10:02:17 [notice] 29#29: exit
+2024/09/20 10:02:17 [notice] 31#31: exit
+2024/09/20 10:02:17 [notice] 30#30: exit
+2024/09/20 10:02:17 [notice] 32#32: exit
+2024/09/20 10:02:17 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 10:02:17 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:02:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 10:02:17 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 10:02:17 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:02:17 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 10:02:17 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 10:02:17 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 10:02:17 [notice] 1#1: exit
+2024/09/20 10:02:17 [notice] 1#1: using the "epoll" event method
+2024/09/20 10:02:17 [notice] 1#1: nginx/1.26.2
+2024/09/20 10:02:17 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 10:02:17 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 10:02:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 10:02:17 [notice] 1#1: start worker processes
+2024/09/20 10:02:17 [notice] 1#1: start worker process 22
+2024/09/20 10:02:17 [notice] 1#1: start worker process 23
+2024/09/20 10:02:17 [notice] 1#1: start worker process 24
+2024/09/20 10:02:17 [notice] 1#1: start worker process 25
+2024/09/20 10:02:17 [notice] 1#1: start worker process 26
+2024/09/20 10:02:17 [notice] 1#1: start worker process 27
+2024/09/20 10:02:17 [notice] 1#1: start worker process 28
+2024/09/20 10:02:17 [notice] 1#1: start worker process 29
+2024/09/20 10:02:17 [notice] 1#1: start worker process 30
+2024/09/20 10:02:17 [notice] 1#1: start worker process 31
+2024/09/20 10:02:17 [notice] 1#1: start worker process 32
+2024/09/20 10:02:23 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:02:24 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:02:24 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:05:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 10:05:25 [notice] 23#23: gracefully shutting down
+2024/09/20 10:05:25 [notice] 24#24: gracefully shutting down
+2024/09/20 10:05:25 [notice] 24#24: exiting
+2024/09/20 10:05:25 [notice] 29#29: gracefully shutting down
+2024/09/20 10:05:25 [notice] 29#29: exiting
+2024/09/20 10:05:25 [notice] 26#26: gracefully shutting down
+2024/09/20 10:05:25 [notice] 31#31: gracefully shutting down
+2024/09/20 10:05:25 [notice] 25#25: gracefully shutting down
+2024/09/20 10:05:25 [notice] 30#30: gracefully shutting down
+2024/09/20 10:05:25 [notice] 22#22: gracefully shutting down
+2024/09/20 10:05:25 [notice] 22#22: exiting
+2024/09/20 10:05:25 [notice] 28#28: gracefully shutting down
+2024/09/20 10:05:25 [notice] 27#27: gracefully shutting down
+2024/09/20 10:05:25 [notice] 32#32: gracefully shutting down
+2024/09/20 10:05:25 [notice] 23#23: exiting
+2024/09/20 10:05:25 [notice] 24#24: exit
+2024/09/20 10:05:25 [notice] 29#29: exit
+2024/09/20 10:05:25 [notice] 26#26: exiting
+2024/09/20 10:05:25 [notice] 31#31: exiting
+2024/09/20 10:05:25 [notice] 25#25: exiting
+2024/09/20 10:05:25 [notice] 30#30: exiting
+2024/09/20 10:05:25 [notice] 25#25: exit
+2024/09/20 10:05:25 [notice] 22#22: exit
+2024/09/20 10:05:25 [notice] 28#28: exiting
+2024/09/20 10:05:25 [notice] 27#27: exiting
+2024/09/20 10:05:25 [notice] 32#32: exiting
+2024/09/20 10:05:25 [notice] 27#27: exit
+2024/09/20 10:05:25 [notice] 23#23: exit
+2024/09/20 10:05:25 [notice] 26#26: exit
+2024/09/20 10:05:25 [notice] 31#31: exit
+2024/09/20 10:05:25 [notice] 30#30: exit
+2024/09/20 10:05:25 [notice] 28#28: exit
+2024/09/20 10:05:25 [notice] 32#32: exit
+2024/09/20 10:05:25 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 10:05:25 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:05:25 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 10:05:25 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:05:25 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 10:05:25 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 10:05:25 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:05:25 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 10:05:25 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 10:05:25 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 10:05:25 [notice] 1#1: exit
+2024/09/20 10:05:25 [notice] 1#1: using the "epoll" event method
+2024/09/20 10:05:25 [notice] 1#1: nginx/1.26.2
+2024/09/20 10:05:25 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 10:05:25 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 10:05:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 10:05:25 [notice] 1#1: start worker processes
+2024/09/20 10:05:25 [notice] 1#1: start worker process 21
+2024/09/20 10:05:25 [notice] 1#1: start worker process 22
+2024/09/20 10:05:25 [notice] 1#1: start worker process 23
+2024/09/20 10:05:25 [notice] 1#1: start worker process 24
+2024/09/20 10:05:25 [notice] 1#1: start worker process 25
+2024/09/20 10:05:25 [notice] 1#1: start worker process 26
+2024/09/20 10:05:25 [notice] 1#1: start worker process 27
+2024/09/20 10:05:25 [notice] 1#1: start worker process 28
+2024/09/20 10:05:25 [notice] 1#1: start worker process 29
+2024/09/20 10:05:25 [notice] 1#1: start worker process 30
+2024/09/20 10:05:25 [notice] 1#1: start worker process 31
+2024/09/20 10:05:31 [error] 22#22: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:05:31 [error] 22#22: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:05:32 [error] 22#22: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:07:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 10:07:43 [notice] 24#24: gracefully shutting down
+2024/09/20 10:07:43 [notice] 31#31: gracefully shutting down
+2024/09/20 10:07:43 [notice] 31#31: exiting
+2024/09/20 10:07:43 [notice] 23#23: gracefully shutting down
+2024/09/20 10:07:43 [notice] 23#23: exiting
+2024/09/20 10:07:43 [notice] 28#28: gracefully shutting down
+2024/09/20 10:07:43 [notice] 26#26: gracefully shutting down
+2024/09/20 10:07:43 [notice] 25#25: gracefully shutting down
+2024/09/20 10:07:43 [notice] 22#22: gracefully shutting down
+2024/09/20 10:07:43 [notice] 30#30: gracefully shutting down
+2024/09/20 10:07:43 [notice] 27#27: gracefully shutting down
+2024/09/20 10:07:43 [notice] 21#21: gracefully shutting down
+2024/09/20 10:07:43 [notice] 24#24: exiting
+2024/09/20 10:07:43 [notice] 29#29: gracefully shutting down
+2024/09/20 10:07:43 [notice] 31#31: exit
+2024/09/20 10:07:43 [notice] 23#23: exit
+2024/09/20 10:07:43 [notice] 28#28: exiting
+2024/09/20 10:07:43 [notice] 26#26: exiting
+2024/09/20 10:07:43 [notice] 25#25: exiting
+2024/09/20 10:07:43 [notice] 22#22: exiting
+2024/09/20 10:07:43 [notice] 30#30: exiting
+2024/09/20 10:07:43 [notice] 27#27: exiting
+2024/09/20 10:07:43 [notice] 21#21: exiting
+2024/09/20 10:07:43 [notice] 24#24: exit
+2024/09/20 10:07:43 [notice] 29#29: exiting
+2024/09/20 10:07:43 [notice] 28#28: exit
+2024/09/20 10:07:43 [notice] 26#26: exit
+2024/09/20 10:07:43 [notice] 25#25: exit
+2024/09/20 10:07:43 [notice] 22#22: exit
+2024/09/20 10:07:43 [notice] 30#30: exit
+2024/09/20 10:07:43 [notice] 27#27: exit
+2024/09/20 10:07:43 [notice] 21#21: exit
+2024/09/20 10:07:43 [notice] 29#29: exit
+2024/09/20 10:07:43 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 10:07:43 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:07:43 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 10:07:43 [notice] 1#1: worker process 21 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:07:43 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 10:07:43 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 10:07:43 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 10:07:43 [notice] 1#1: exit
+2024/09/20 10:07:43 [notice] 1#1: using the "epoll" event method
+2024/09/20 10:07:43 [notice] 1#1: nginx/1.26.2
+2024/09/20 10:07:43 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 10:07:43 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 10:07:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 10:07:43 [notice] 1#1: start worker processes
+2024/09/20 10:07:43 [notice] 1#1: start worker process 22
+2024/09/20 10:07:43 [notice] 1#1: start worker process 23
+2024/09/20 10:07:43 [notice] 1#1: start worker process 24
+2024/09/20 10:07:43 [notice] 1#1: start worker process 25
+2024/09/20 10:07:43 [notice] 1#1: start worker process 26
+2024/09/20 10:07:43 [notice] 1#1: start worker process 27
+2024/09/20 10:07:43 [notice] 1#1: start worker process 28
+2024/09/20 10:07:43 [notice] 1#1: start worker process 29
+2024/09/20 10:07:43 [notice] 1#1: start worker process 30
+2024/09/20 10:07:43 [notice] 1#1: start worker process 31
+2024/09/20 10:07:43 [notice] 1#1: start worker process 32
+2024/09/20 10:07:51 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:07:51 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:07:52 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:17:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 10:17:30 [notice] 22#22: gracefully shutting down
+2024/09/20 10:17:30 [notice] 22#22: exiting
+2024/09/20 10:17:30 [notice] 24#24: gracefully shutting down
+2024/09/20 10:17:30 [notice] 23#23: gracefully shutting down
+2024/09/20 10:17:30 [notice] 23#23: exiting
+2024/09/20 10:17:30 [notice] 25#25: gracefully shutting down
+2024/09/20 10:17:30 [notice] 25#25: exiting
+2024/09/20 10:17:30 [notice] 28#28: gracefully shutting down
+2024/09/20 10:17:30 [notice] 28#28: exiting
+2024/09/20 10:17:30 [notice] 26#26: gracefully shutting down
+2024/09/20 10:17:30 [notice] 32#32: gracefully shutting down
+2024/09/20 10:17:30 [notice] 32#32: exiting
+2024/09/20 10:17:30 [notice] 29#29: gracefully shutting down
+2024/09/20 10:17:30 [notice] 29#29: exiting
+2024/09/20 10:17:30 [notice] 30#30: gracefully shutting down
+2024/09/20 10:17:30 [notice] 30#30: exiting
+2024/09/20 10:17:30 [notice] 31#31: gracefully shutting down
+2024/09/20 10:17:30 [notice] 27#27: gracefully shutting down
+2024/09/20 10:17:30 [notice] 24#24: exiting
+2024/09/20 10:17:30 [notice] 22#22: exit
+2024/09/20 10:17:30 [notice] 23#23: exit
+2024/09/20 10:17:30 [notice] 25#25: exit
+2024/09/20 10:17:30 [notice] 28#28: exit
+2024/09/20 10:17:30 [notice] 26#26: exiting
+2024/09/20 10:17:30 [notice] 32#32: exit
+2024/09/20 10:17:30 [notice] 29#29: exit
+2024/09/20 10:17:30 [notice] 30#30: exit
+2024/09/20 10:17:30 [notice] 31#31: exiting
+2024/09/20 10:17:30 [notice] 27#27: exiting
+2024/09/20 10:17:30 [notice] 24#24: exit
+2024/09/20 10:17:30 [notice] 26#26: exit
+2024/09/20 10:17:30 [notice] 31#31: exit
+2024/09/20 10:17:30 [notice] 27#27: exit
+2024/09/20 10:17:30 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 10:17:30 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:17:30 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 10:17:30 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:17:30 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 10:17:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 10:17:30 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 10:17:30 [notice] 1#1: exit
+2024/09/20 10:17:30 [notice] 1#1: using the "epoll" event method
+2024/09/20 10:17:30 [notice] 1#1: nginx/1.26.2
+2024/09/20 10:17:30 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 10:17:30 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 10:17:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 10:17:30 [notice] 1#1: start worker processes
+2024/09/20 10:17:30 [notice] 1#1: start worker process 22
+2024/09/20 10:17:30 [notice] 1#1: start worker process 23
+2024/09/20 10:17:30 [notice] 1#1: start worker process 24
+2024/09/20 10:17:30 [notice] 1#1: start worker process 25
+2024/09/20 10:17:30 [notice] 1#1: start worker process 26
+2024/09/20 10:17:30 [notice] 1#1: start worker process 27
+2024/09/20 10:17:30 [notice] 1#1: start worker process 28
+2024/09/20 10:17:30 [notice] 1#1: start worker process 29
+2024/09/20 10:17:30 [notice] 1#1: start worker process 30
+2024/09/20 10:17:30 [notice] 1#1: start worker process 31
+2024/09/20 10:17:30 [notice] 1#1: start worker process 32
+2024/09/20 10:17:34 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:17:34 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:17:35 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:17:52 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:17:53 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:17:53 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:24:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 10:24:16 [notice] 26#26: gracefully shutting down
+2024/09/20 10:24:16 [notice] 26#26: exiting
+2024/09/20 10:24:16 [notice] 23#23: gracefully shutting down
+2024/09/20 10:24:16 [notice] 22#22: gracefully shutting down
+2024/09/20 10:24:16 [notice] 22#22: exiting
+2024/09/20 10:24:16 [notice] 25#25: gracefully shutting down
+2024/09/20 10:24:16 [notice] 25#25: exiting
+2024/09/20 10:24:16 [notice] 28#28: gracefully shutting down
+2024/09/20 10:24:16 [notice] 32#32: gracefully shutting down
+2024/09/20 10:24:16 [notice] 31#31: gracefully shutting down
+2024/09/20 10:24:16 [notice] 24#24: gracefully shutting down
+2024/09/20 10:24:16 [notice] 24#24: exiting
+2024/09/20 10:24:16 [notice] 30#30: gracefully shutting down
+2024/09/20 10:24:16 [notice] 29#29: gracefully shutting down
+2024/09/20 10:24:16 [notice] 29#29: exiting
+2024/09/20 10:24:16 [notice] 27#27: gracefully shutting down
+2024/09/20 10:24:16 [notice] 26#26: exit
+2024/09/20 10:24:16 [notice] 23#23: exiting
+2024/09/20 10:24:16 [notice] 22#22: exit
+2024/09/20 10:24:16 [notice] 25#25: exit
+2024/09/20 10:24:16 [notice] 28#28: exiting
+2024/09/20 10:24:16 [notice] 32#32: exiting
+2024/09/20 10:24:16 [notice] 31#31: exiting
+2024/09/20 10:24:16 [notice] 24#24: exit
+2024/09/20 10:24:16 [notice] 30#30: exiting
+2024/09/20 10:24:16 [notice] 29#29: exit
+2024/09/20 10:24:16 [notice] 27#27: exiting
+2024/09/20 10:24:16 [notice] 23#23: exit
+2024/09/20 10:24:16 [notice] 28#28: exit
+2024/09/20 10:24:16 [notice] 32#32: exit
+2024/09/20 10:24:16 [notice] 31#31: exit
+2024/09/20 10:24:16 [notice] 30#30: exit
+2024/09/20 10:24:16 [notice] 27#27: exit
+2024/09/20 10:24:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 10:24:16 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:24:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 10:24:16 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 10:24:16 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:24:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 10:24:16 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 10:24:16 [notice] 1#1: exit
+2024/09/20 10:24:17 [notice] 1#1: using the "epoll" event method
+2024/09/20 10:24:17 [notice] 1#1: nginx/1.26.2
+2024/09/20 10:24:17 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 10:24:17 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 10:24:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 10:24:17 [notice] 1#1: start worker processes
+2024/09/20 10:24:17 [notice] 1#1: start worker process 22
+2024/09/20 10:24:17 [notice] 1#1: start worker process 23
+2024/09/20 10:24:17 [notice] 1#1: start worker process 24
+2024/09/20 10:24:17 [notice] 1#1: start worker process 25
+2024/09/20 10:24:17 [notice] 1#1: start worker process 26
+2024/09/20 10:24:17 [notice] 1#1: start worker process 27
+2024/09/20 10:24:17 [notice] 1#1: start worker process 28
+2024/09/20 10:24:17 [notice] 1#1: start worker process 29
+2024/09/20 10:24:17 [notice] 1#1: start worker process 30
+2024/09/20 10:24:17 [notice] 1#1: start worker process 31
+2024/09/20 10:24:17 [notice] 1#1: start worker process 32
+2024/09/20 10:24:49 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:24:52 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:24:53 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:24:53 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:26:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 10:26:10 [notice] 22#22: gracefully shutting down
+2024/09/20 10:26:10 [notice] 28#28: gracefully shutting down
+2024/09/20 10:26:10 [notice] 28#28: exiting
+2024/09/20 10:26:10 [notice] 23#23: gracefully shutting down
+2024/09/20 10:26:10 [notice] 23#23: exiting
+2024/09/20 10:26:10 [notice] 24#24: gracefully shutting down
+2024/09/20 10:26:10 [notice] 25#25: gracefully shutting down
+2024/09/20 10:26:10 [notice] 26#26: gracefully shutting down
+2024/09/20 10:26:10 [notice] 25#25: exiting
+2024/09/20 10:26:10 [notice] 29#29: gracefully shutting down
+2024/09/20 10:26:10 [notice] 27#27: gracefully shutting down
+2024/09/20 10:26:10 [notice] 31#31: gracefully shutting down
+2024/09/20 10:26:10 [notice] 32#32: gracefully shutting down
+2024/09/20 10:26:10 [notice] 32#32: exiting
+2024/09/20 10:26:10 [notice] 22#22: exiting
+2024/09/20 10:26:10 [notice] 30#30: gracefully shutting down
+2024/09/20 10:26:10 [notice] 28#28: exit
+2024/09/20 10:26:10 [notice] 23#23: exit
+2024/09/20 10:26:10 [notice] 24#24: exiting
+2024/09/20 10:26:10 [notice] 26#26: exiting
+2024/09/20 10:26:10 [notice] 24#24: exit
+2024/09/20 10:26:10 [notice] 25#25: exit
+2024/09/20 10:26:10 [notice] 29#29: exiting
+2024/09/20 10:26:10 [notice] 29#29: exit
+2024/09/20 10:26:10 [notice] 27#27: exiting
+2024/09/20 10:26:10 [notice] 31#31: exiting
+2024/09/20 10:26:10 [notice] 27#27: exit
+2024/09/20 10:26:10 [notice] 32#32: exit
+2024/09/20 10:26:10 [notice] 22#22: exit
+2024/09/20 10:26:10 [notice] 30#30: exiting
+2024/09/20 10:26:10 [notice] 26#26: exit
+2024/09/20 10:26:10 [notice] 31#31: exit
+2024/09/20 10:26:10 [notice] 30#30: exit
+2024/09/20 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 10:26:10 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 10:26:10 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 10:26:10 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 10:26:10 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 10:26:10 [notice] 1#1: exit
+2024/09/20 10:26:10 [notice] 1#1: using the "epoll" event method
+2024/09/20 10:26:10 [notice] 1#1: nginx/1.26.2
+2024/09/20 10:26:10 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 10:26:10 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 10:26:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 10:26:10 [notice] 1#1: start worker processes
+2024/09/20 10:26:10 [notice] 1#1: start worker process 22
+2024/09/20 10:26:10 [notice] 1#1: start worker process 23
+2024/09/20 10:26:10 [notice] 1#1: start worker process 24
+2024/09/20 10:26:10 [notice] 1#1: start worker process 25
+2024/09/20 10:26:10 [notice] 1#1: start worker process 26
+2024/09/20 10:26:10 [notice] 1#1: start worker process 27
+2024/09/20 10:26:10 [notice] 1#1: start worker process 28
+2024/09/20 10:26:10 [notice] 1#1: start worker process 29
+2024/09/20 10:26:10 [notice] 1#1: start worker process 30
+2024/09/20 10:26:10 [notice] 1#1: start worker process 31
+2024/09/20 10:26:10 [notice] 1#1: start worker process 32
+2024/09/20 10:26:16 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:26:16 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:26:16 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 10:26:16 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:31:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 11:31:03 [notice] 22#22: gracefully shutting down
+2024/09/20 11:31:03 [notice] 25#25: gracefully shutting down
+2024/09/20 11:31:03 [notice] 27#27: gracefully shutting down
+2024/09/20 11:31:03 [notice] 24#24: gracefully shutting down
+2024/09/20 11:31:03 [notice] 30#30: gracefully shutting down
+2024/09/20 11:31:03 [notice] 23#23: gracefully shutting down
+2024/09/20 11:31:03 [notice] 23#23: exiting
+2024/09/20 11:31:03 [notice] 22#22: exiting
+2024/09/20 11:31:03 [notice] 26#26: gracefully shutting down
+2024/09/20 11:31:03 [notice] 32#32: gracefully shutting down
+2024/09/20 11:31:03 [notice] 29#29: gracefully shutting down
+2024/09/20 11:31:03 [notice] 31#31: gracefully shutting down
+2024/09/20 11:31:03 [notice] 25#25: exiting
+2024/09/20 11:31:03 [notice] 28#28: gracefully shutting down
+2024/09/20 11:31:03 [notice] 27#27: exiting
+2024/09/20 11:31:03 [notice] 24#24: exiting
+2024/09/20 11:31:03 [notice] 27#27: exit
+2024/09/20 11:31:03 [notice] 30#30: exiting
+2024/09/20 11:31:03 [notice] 30#30: exit
+2024/09/20 11:31:03 [notice] 23#23: exit
+2024/09/20 11:31:03 [notice] 22#22: exit
+2024/09/20 11:31:03 [notice] 26#26: exiting
+2024/09/20 11:31:03 [notice] 26#26: exit
+2024/09/20 11:31:03 [notice] 32#32: exiting
+2024/09/20 11:31:03 [notice] 29#29: exiting
+2024/09/20 11:31:03 [notice] 31#31: exiting
+2024/09/20 11:31:03 [notice] 25#25: exit
+2024/09/20 11:31:03 [notice] 28#28: exiting
+2024/09/20 11:31:03 [notice] 24#24: exit
+2024/09/20 11:31:03 [notice] 32#32: exit
+2024/09/20 11:31:03 [notice] 29#29: exit
+2024/09/20 11:31:03 [notice] 31#31: exit
+2024/09/20 11:31:03 [notice] 28#28: exit
+2024/09/20 11:31:03 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 11:31:03 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:31:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 11:31:03 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 11:31:03 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 11:31:03 [notice] 1#1: exit
+2024/09/20 11:31:04 [notice] 1#1: using the "epoll" event method
+2024/09/20 11:31:04 [notice] 1#1: nginx/1.26.2
+2024/09/20 11:31:04 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 11:31:04 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 11:31:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 11:31:04 [notice] 1#1: start worker processes
+2024/09/20 11:31:04 [notice] 1#1: start worker process 22
+2024/09/20 11:31:04 [notice] 1#1: start worker process 23
+2024/09/20 11:31:04 [notice] 1#1: start worker process 24
+2024/09/20 11:31:04 [notice] 1#1: start worker process 25
+2024/09/20 11:31:04 [notice] 1#1: start worker process 26
+2024/09/20 11:31:04 [notice] 1#1: start worker process 27
+2024/09/20 11:31:04 [notice] 1#1: start worker process 28
+2024/09/20 11:31:04 [notice] 1#1: start worker process 29
+2024/09/20 11:31:04 [notice] 1#1: start worker process 30
+2024/09/20 11:31:04 [notice] 1#1: start worker process 31
+2024/09/20 11:31:04 [notice] 1#1: start worker process 32
+2024/09/20 11:31:18 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:31:18 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:31:18 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:31:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 11:31:58 [notice] 23#23: gracefully shutting down
+2024/09/20 11:31:58 [notice] 24#24: gracefully shutting down
+2024/09/20 11:31:58 [notice] 24#24: exiting
+2024/09/20 11:31:58 [notice] 22#22: gracefully shutting down
+2024/09/20 11:31:58 [notice] 28#28: gracefully shutting down
+2024/09/20 11:31:58 [notice] 28#28: exiting
+2024/09/20 11:31:58 [notice] 26#26: gracefully shutting down
+2024/09/20 11:31:58 [notice] 26#26: exiting
+2024/09/20 11:31:58 [notice] 25#25: gracefully shutting down
+2024/09/20 11:31:58 [notice] 29#29: gracefully shutting down
+2024/09/20 11:31:58 [notice] 29#29: exiting
+2024/09/20 11:31:58 [notice] 27#27: gracefully shutting down
+2024/09/20 11:31:58 [notice] 29#29: exit
+2024/09/20 11:31:58 [notice] 30#30: gracefully shutting down
+2024/09/20 11:31:58 [notice] 31#31: gracefully shutting down
+2024/09/20 11:31:58 [notice] 31#31: exiting
+2024/09/20 11:31:58 [notice] 32#32: gracefully shutting down
+2024/09/20 11:31:58 [notice] 24#24: exit
+2024/09/20 11:31:58 [notice] 22#22: exiting
+2024/09/20 11:31:58 [notice] 28#28: exit
+2024/09/20 11:31:58 [notice] 26#26: exit
+2024/09/20 11:31:58 [notice] 25#25: exiting
+2024/09/20 11:31:58 [notice] 27#27: exiting
+2024/09/20 11:31:58 [notice] 27#27: exit
+2024/09/20 11:31:58 [notice] 30#30: exiting
+2024/09/20 11:31:58 [notice] 31#31: exit
+2024/09/20 11:31:58 [notice] 32#32: exiting
+2024/09/20 11:31:58 [notice] 22#22: exit
+2024/09/20 11:31:58 [notice] 25#25: exit
+2024/09/20 11:31:58 [notice] 30#30: exit
+2024/09/20 11:31:58 [notice] 32#32: exit
+2024/09/20 11:31:58 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 11:31:58 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:31:58 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 11:31:58 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:31:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 11:31:58 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 11:31:58 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 11:31:58 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:32:08 [notice] 1#1: using the "epoll" event method
+2024/09/20 11:32:08 [notice] 1#1: nginx/1.26.2
+2024/09/20 11:32:08 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 11:32:08 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 11:32:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 11:32:08 [notice] 1#1: start worker processes
+2024/09/20 11:32:08 [notice] 1#1: start worker process 22
+2024/09/20 11:32:08 [notice] 1#1: start worker process 23
+2024/09/20 11:32:08 [notice] 1#1: start worker process 24
+2024/09/20 11:32:08 [notice] 1#1: start worker process 25
+2024/09/20 11:32:08 [notice] 1#1: start worker process 26
+2024/09/20 11:32:08 [notice] 1#1: start worker process 27
+2024/09/20 11:32:08 [notice] 1#1: start worker process 28
+2024/09/20 11:32:08 [notice] 1#1: start worker process 29
+2024/09/20 11:32:08 [notice] 1#1: start worker process 30
+2024/09/20 11:32:08 [notice] 1#1: start worker process 31
+2024/09/20 11:32:08 [notice] 1#1: start worker process 32
+2024/09/20 11:32:23 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:32:24 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:36:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 11:36:15 [notice] 22#22: gracefully shutting down
+2024/09/20 11:36:15 [notice] 22#22: exiting
+2024/09/20 11:36:15 [notice] 23#23: gracefully shutting down
+2024/09/20 11:36:15 [notice] 29#29: gracefully shutting down
+2024/09/20 11:36:15 [notice] 24#24: gracefully shutting down
+2024/09/20 11:36:15 [notice] 24#24: exiting
+2024/09/20 11:36:15 [notice] 25#25: gracefully shutting down
+2024/09/20 11:36:15 [notice] 26#26: gracefully shutting down
+2024/09/20 11:36:15 [notice] 30#30: gracefully shutting down
+2024/09/20 11:36:15 [notice] 30#30: exiting
+2024/09/20 11:36:15 [notice] 27#27: gracefully shutting down
+2024/09/20 11:36:15 [notice] 32#32: gracefully shutting down
+2024/09/20 11:36:15 [notice] 31#31: gracefully shutting down
+2024/09/20 11:36:15 [notice] 28#28: gracefully shutting down
+2024/09/20 11:36:15 [notice] 22#22: exit
+2024/09/20 11:36:15 [notice] 23#23: exiting
+2024/09/20 11:36:15 [notice] 29#29: exiting
+2024/09/20 11:36:15 [notice] 24#24: exit
+2024/09/20 11:36:15 [notice] 25#25: exiting
+2024/09/20 11:36:15 [notice] 26#26: exiting
+2024/09/20 11:36:15 [notice] 27#27: exiting
+2024/09/20 11:36:15 [notice] 30#30: exit
+2024/09/20 11:36:15 [notice] 32#32: exiting
+2024/09/20 11:36:15 [notice] 31#31: exiting
+2024/09/20 11:36:15 [notice] 28#28: exiting
+2024/09/20 11:36:15 [notice] 23#23: exit
+2024/09/20 11:36:15 [notice] 28#28: exit
+2024/09/20 11:36:15 [notice] 29#29: exit
+2024/09/20 11:36:15 [notice] 25#25: exit
+2024/09/20 11:36:15 [notice] 26#26: exit
+2024/09/20 11:36:15 [notice] 27#27: exit
+2024/09/20 11:36:15 [notice] 32#32: exit
+2024/09/20 11:36:15 [notice] 31#31: exit
+2024/09/20 11:36:15 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 11:36:15 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:36:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 11:36:15 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 11:36:15 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:36:15 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 11:36:15 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:36:15 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 11:36:15 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:36:15 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 11:36:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 11:36:15 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 11:36:15 [notice] 1#1: exit
+2024/09/20 11:36:15 [notice] 1#1: using the "epoll" event method
+2024/09/20 11:36:15 [notice] 1#1: nginx/1.26.2
+2024/09/20 11:36:15 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 11:36:15 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 11:36:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 11:36:15 [notice] 1#1: start worker processes
+2024/09/20 11:36:15 [notice] 1#1: start worker process 22
+2024/09/20 11:36:15 [notice] 1#1: start worker process 23
+2024/09/20 11:36:15 [notice] 1#1: start worker process 24
+2024/09/20 11:36:15 [notice] 1#1: start worker process 25
+2024/09/20 11:36:15 [notice] 1#1: start worker process 26
+2024/09/20 11:36:15 [notice] 1#1: start worker process 27
+2024/09/20 11:36:15 [notice] 1#1: start worker process 28
+2024/09/20 11:36:15 [notice] 1#1: start worker process 29
+2024/09/20 11:36:15 [notice] 1#1: start worker process 30
+2024/09/20 11:36:15 [notice] 1#1: start worker process 31
+2024/09/20 11:36:15 [notice] 1#1: start worker process 32
+2024/09/20 11:36:21 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:36:21 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:36:22 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:40:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 11:40:07 [notice] 22#22: gracefully shutting down
+2024/09/20 11:40:07 [notice] 22#22: exiting
+2024/09/20 11:40:07 [notice] 23#23: gracefully shutting down
+2024/09/20 11:40:07 [notice] 23#23: exiting
+2024/09/20 11:40:07 [notice] 24#24: gracefully shutting down
+2024/09/20 11:40:07 [notice] 25#25: gracefully shutting down
+2024/09/20 11:40:07 [notice] 28#28: gracefully shutting down
+2024/09/20 11:40:07 [notice] 27#27: gracefully shutting down
+2024/09/20 11:40:07 [notice] 29#29: gracefully shutting down
+2024/09/20 11:40:07 [notice] 29#29: exiting
+2024/09/20 11:40:07 [notice] 30#30: gracefully shutting down
+2024/09/20 11:40:07 [notice] 31#31: gracefully shutting down
+2024/09/20 11:40:07 [notice] 32#32: gracefully shutting down
+2024/09/20 11:40:07 [notice] 26#26: gracefully shutting down
+2024/09/20 11:40:07 [notice] 26#26: exiting
+2024/09/20 11:40:07 [notice] 22#22: exit
+2024/09/20 11:40:07 [notice] 23#23: exit
+2024/09/20 11:40:07 [notice] 24#24: exiting
+2024/09/20 11:40:07 [notice] 25#25: exiting
+2024/09/20 11:40:07 [notice] 24#24: exit
+2024/09/20 11:40:07 [notice] 28#28: exiting
+2024/09/20 11:40:07 [notice] 28#28: exit
+2024/09/20 11:40:07 [notice] 27#27: exiting
+2024/09/20 11:40:07 [notice] 29#29: exit
+2024/09/20 11:40:07 [notice] 30#30: exiting
+2024/09/20 11:40:07 [notice] 31#31: exiting
+2024/09/20 11:40:07 [notice] 32#32: exiting
+2024/09/20 11:40:07 [notice] 26#26: exit
+2024/09/20 11:40:07 [notice] 25#25: exit
+2024/09/20 11:40:07 [notice] 27#27: exit
+2024/09/20 11:40:07 [notice] 30#30: exit
+2024/09/20 11:40:07 [notice] 31#31: exit
+2024/09/20 11:40:07 [notice] 32#32: exit
+2024/09/20 11:40:07 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 11:40:07 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:40:07 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 11:40:07 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 11:40:07 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:40:07 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 11:40:07 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 11:40:07 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 11:40:07 [notice] 1#1: exit
+2024/09/20 11:40:07 [notice] 1#1: using the "epoll" event method
+2024/09/20 11:40:07 [notice] 1#1: nginx/1.26.2
+2024/09/20 11:40:07 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 11:40:07 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 11:40:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 11:40:07 [notice] 1#1: start worker processes
+2024/09/20 11:40:07 [notice] 1#1: start worker process 22
+2024/09/20 11:40:07 [notice] 1#1: start worker process 23
+2024/09/20 11:40:07 [notice] 1#1: start worker process 24
+2024/09/20 11:40:07 [notice] 1#1: start worker process 25
+2024/09/20 11:40:07 [notice] 1#1: start worker process 26
+2024/09/20 11:40:07 [notice] 1#1: start worker process 27
+2024/09/20 11:40:07 [notice] 1#1: start worker process 28
+2024/09/20 11:40:07 [notice] 1#1: start worker process 29
+2024/09/20 11:40:07 [notice] 1#1: start worker process 30
+2024/09/20 11:40:07 [notice] 1#1: start worker process 31
+2024/09/20 11:40:07 [notice] 1#1: start worker process 32
+2024/09/20 11:40:13 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:40:14 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:46:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 11:46:30 [notice] 22#22: gracefully shutting down
+2024/09/20 11:46:30 [notice] 30#30: gracefully shutting down
+2024/09/20 11:46:30 [notice] 30#30: exiting
+2024/09/20 11:46:30 [notice] 23#23: gracefully shutting down
+2024/09/20 11:46:30 [notice] 25#25: gracefully shutting down
+2024/09/20 11:46:30 [notice] 24#24: gracefully shutting down
+2024/09/20 11:46:30 [notice] 24#24: exiting
+2024/09/20 11:46:30 [notice] 26#26: gracefully shutting down
+2024/09/20 11:46:30 [notice] 27#27: gracefully shutting down
+2024/09/20 11:46:30 [notice] 29#29: gracefully shutting down
+2024/09/20 11:46:30 [notice] 31#31: gracefully shutting down
+2024/09/20 11:46:30 [notice] 32#32: gracefully shutting down
+2024/09/20 11:46:30 [notice] 22#22: exiting
+2024/09/20 11:46:30 [notice] 28#28: gracefully shutting down
+2024/09/20 11:46:30 [notice] 28#28: exiting
+2024/09/20 11:46:30 [notice] 30#30: exit
+2024/09/20 11:46:30 [notice] 23#23: exiting
+2024/09/20 11:46:30 [notice] 25#25: exiting
+2024/09/20 11:46:30 [notice] 24#24: exit
+2024/09/20 11:46:30 [notice] 26#26: exiting
+2024/09/20 11:46:30 [notice] 27#27: exiting
+2024/09/20 11:46:30 [notice] 29#29: exiting
+2024/09/20 11:46:30 [notice] 31#31: exiting
+2024/09/20 11:46:30 [notice] 32#32: exiting
+2024/09/20 11:46:30 [notice] 22#22: exit
+2024/09/20 11:46:30 [notice] 28#28: exit
+2024/09/20 11:46:30 [notice] 23#23: exit
+2024/09/20 11:46:30 [notice] 25#25: exit
+2024/09/20 11:46:30 [notice] 26#26: exit
+2024/09/20 11:46:30 [notice] 29#29: exit
+2024/09/20 11:46:30 [notice] 27#27: exit
+2024/09/20 11:46:30 [notice] 31#31: exit
+2024/09/20 11:46:30 [notice] 32#32: exit
+2024/09/20 11:46:30 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 11:46:30 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:46:30 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 11:46:30 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 11:46:30 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 11:46:30 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 11:46:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 11:46:30 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 11:46:30 [notice] 1#1: exit
+2024/09/20 11:46:30 [notice] 1#1: using the "epoll" event method
+2024/09/20 11:46:30 [notice] 1#1: nginx/1.26.2
+2024/09/20 11:46:30 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 11:46:30 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 11:46:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 11:46:30 [notice] 1#1: start worker processes
+2024/09/20 11:46:30 [notice] 1#1: start worker process 22
+2024/09/20 11:46:30 [notice] 1#1: start worker process 23
+2024/09/20 11:46:30 [notice] 1#1: start worker process 24
+2024/09/20 11:46:30 [notice] 1#1: start worker process 25
+2024/09/20 11:46:30 [notice] 1#1: start worker process 26
+2024/09/20 11:46:30 [notice] 1#1: start worker process 27
+2024/09/20 11:46:30 [notice] 1#1: start worker process 28
+2024/09/20 11:46:30 [notice] 1#1: start worker process 29
+2024/09/20 11:46:30 [notice] 1#1: start worker process 30
+2024/09/20 11:46:30 [notice] 1#1: start worker process 31
+2024/09/20 11:46:30 [notice] 1#1: start worker process 32
+2024/09/20 11:46:37 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:46:37 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:46:37 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 11:53:08 [error] 24#24: *3 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:11:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 12:11:20 [notice] 23#23: gracefully shutting down
+2024/09/20 12:11:20 [notice] 25#25: gracefully shutting down
+2024/09/20 12:11:20 [notice] 25#25: exiting
+2024/09/20 12:11:20 [notice] 28#28: gracefully shutting down
+2024/09/20 12:11:20 [notice] 28#28: exiting
+2024/09/20 12:11:20 [notice] 26#26: gracefully shutting down
+2024/09/20 12:11:20 [notice] 32#32: gracefully shutting down
+2024/09/20 12:11:20 [notice] 30#30: gracefully shutting down
+2024/09/20 12:11:20 [notice] 29#29: gracefully shutting down
+2024/09/20 12:11:20 [notice] 22#22: gracefully shutting down
+2024/09/20 12:11:20 [notice] 24#24: gracefully shutting down
+2024/09/20 12:11:20 [notice] 31#31: gracefully shutting down
+2024/09/20 12:11:20 [notice] 31#31: exiting
+2024/09/20 12:11:20 [notice] 27#27: gracefully shutting down
+2024/09/20 12:11:20 [notice] 23#23: exiting
+2024/09/20 12:11:20 [notice] 25#25: exit
+2024/09/20 12:11:20 [notice] 23#23: exit
+2024/09/20 12:11:20 [notice] 28#28: exit
+2024/09/20 12:11:20 [notice] 26#26: exiting
+2024/09/20 12:11:20 [notice] 32#32: exiting
+2024/09/20 12:11:20 [notice] 30#30: exiting
+2024/09/20 12:11:20 [notice] 29#29: exiting
+2024/09/20 12:11:20 [notice] 22#22: exiting
+2024/09/20 12:11:20 [notice] 29#29: exit
+2024/09/20 12:11:20 [notice] 24#24: exiting
+2024/09/20 12:11:20 [notice] 31#31: exit
+2024/09/20 12:11:20 [notice] 27#27: exiting
+2024/09/20 12:11:20 [notice] 26#26: exit
+2024/09/20 12:11:20 [notice] 32#32: exit
+2024/09/20 12:11:20 [notice] 30#30: exit
+2024/09/20 12:11:20 [notice] 22#22: exit
+2024/09/20 12:11:20 [notice] 24#24: exit
+2024/09/20 12:11:20 [notice] 27#27: exit
+2024/09/20 12:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 12:11:20 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 12:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 12:11:20 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 12:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 12:11:20 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 12:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 12:11:20 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 12:11:20 [notice] 1#1: exit
+2024/09/20 12:11:20 [notice] 1#1: using the "epoll" event method
+2024/09/20 12:11:20 [notice] 1#1: nginx/1.26.2
+2024/09/20 12:11:20 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 12:11:20 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 12:11:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 12:11:20 [notice] 1#1: start worker processes
+2024/09/20 12:11:20 [notice] 1#1: start worker process 22
+2024/09/20 12:11:20 [notice] 1#1: start worker process 23
+2024/09/20 12:11:20 [notice] 1#1: start worker process 24
+2024/09/20 12:11:20 [notice] 1#1: start worker process 25
+2024/09/20 12:11:20 [notice] 1#1: start worker process 26
+2024/09/20 12:11:20 [notice] 1#1: start worker process 27
+2024/09/20 12:11:20 [notice] 1#1: start worker process 28
+2024/09/20 12:11:20 [notice] 1#1: start worker process 29
+2024/09/20 12:11:20 [notice] 1#1: start worker process 30
+2024/09/20 12:11:20 [notice] 1#1: start worker process 31
+2024/09/20 12:11:20 [notice] 1#1: start worker process 32
+2024/09/20 12:12:11 [error] 23#23: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:12:12 [error] 23#23: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:12:15 [error] 23#23: *2 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:13:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 12:13:22 [notice] 22#22: gracefully shutting down
+2024/09/20 12:13:22 [notice] 24#24: gracefully shutting down
+2024/09/20 12:13:22 [notice] 24#24: exiting
+2024/09/20 12:13:22 [notice] 26#26: gracefully shutting down
+2024/09/20 12:13:22 [notice] 26#26: exiting
+2024/09/20 12:13:22 [notice] 27#27: gracefully shutting down
+2024/09/20 12:13:22 [notice] 27#27: exiting
+2024/09/20 12:13:22 [notice] 23#23: gracefully shutting down
+2024/09/20 12:13:22 [notice] 27#27: exit
+2024/09/20 12:13:22 [notice] 29#29: gracefully shutting down
+2024/09/20 12:13:22 [notice] 25#25: gracefully shutting down
+2024/09/20 12:13:22 [notice] 25#25: exiting
+2024/09/20 12:13:22 [notice] 31#31: gracefully shutting down
+2024/09/20 12:13:22 [notice] 28#28: gracefully shutting down
+2024/09/20 12:13:22 [notice] 30#30: gracefully shutting down
+2024/09/20 12:13:22 [notice] 32#32: gracefully shutting down
+2024/09/20 12:13:22 [notice] 22#22: exiting
+2024/09/20 12:13:22 [notice] 24#24: exit
+2024/09/20 12:13:22 [notice] 22#22: exit
+2024/09/20 12:13:22 [notice] 26#26: exit
+2024/09/20 12:13:22 [notice] 23#23: exiting
+2024/09/20 12:13:22 [notice] 29#29: exiting
+2024/09/20 12:13:22 [notice] 25#25: exit
+2024/09/20 12:13:22 [notice] 31#31: exiting
+2024/09/20 12:13:22 [notice] 28#28: exiting
+2024/09/20 12:13:22 [notice] 30#30: exiting
+2024/09/20 12:13:22 [notice] 28#28: exit
+2024/09/20 12:13:22 [notice] 32#32: exiting
+2024/09/20 12:13:22 [notice] 23#23: exit
+2024/09/20 12:13:22 [notice] 29#29: exit
+2024/09/20 12:13:22 [notice] 31#31: exit
+2024/09/20 12:13:22 [notice] 30#30: exit
+2024/09/20 12:13:22 [notice] 32#32: exit
+2024/09/20 12:13:22 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 12:13:22 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:13:22 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 12:13:22 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 12:13:22 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:13:22 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/20 12:13:22 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 12:13:22 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 12:13:22 [notice] 1#1: exit
+2024/09/20 12:13:22 [notice] 1#1: using the "epoll" event method
+2024/09/20 12:13:22 [notice] 1#1: nginx/1.26.2
+2024/09/20 12:13:22 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 12:13:22 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 12:13:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 12:13:22 [notice] 1#1: start worker processes
+2024/09/20 12:13:22 [notice] 1#1: start worker process 22
+2024/09/20 12:13:22 [notice] 1#1: start worker process 23
+2024/09/20 12:13:22 [notice] 1#1: start worker process 24
+2024/09/20 12:13:22 [notice] 1#1: start worker process 25
+2024/09/20 12:13:22 [notice] 1#1: start worker process 26
+2024/09/20 12:13:22 [notice] 1#1: start worker process 27
+2024/09/20 12:13:22 [notice] 1#1: start worker process 28
+2024/09/20 12:13:22 [notice] 1#1: start worker process 29
+2024/09/20 12:13:22 [notice] 1#1: start worker process 30
+2024/09/20 12:13:22 [notice] 1#1: start worker process 31
+2024/09/20 12:13:22 [notice] 1#1: start worker process 32
+2024/09/20 12:13:28 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:13:29 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:14:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 12:14:51 [notice] 23#23: gracefully shutting down
+2024/09/20 12:14:51 [notice] 29#29: gracefully shutting down
+2024/09/20 12:14:51 [notice] 29#29: exiting
+2024/09/20 12:14:51 [notice] 28#28: gracefully shutting down
+2024/09/20 12:14:51 [notice] 30#30: gracefully shutting down
+2024/09/20 12:14:51 [notice] 24#24: gracefully shutting down
+2024/09/20 12:14:51 [notice] 25#25: gracefully shutting down
+2024/09/20 12:14:51 [notice] 31#31: gracefully shutting down
+2024/09/20 12:14:51 [notice] 32#32: gracefully shutting down
+2024/09/20 12:14:51 [notice] 27#27: gracefully shutting down
+2024/09/20 12:14:51 [notice] 22#22: gracefully shutting down
+2024/09/20 12:14:51 [notice] 26#26: gracefully shutting down
+2024/09/20 12:14:51 [notice] 23#23: exiting
+2024/09/20 12:14:51 [notice] 29#29: exit
+2024/09/20 12:14:51 [notice] 28#28: exiting
+2024/09/20 12:14:51 [notice] 30#30: exiting
+2024/09/20 12:14:51 [notice] 24#24: exiting
+2024/09/20 12:14:51 [notice] 25#25: exiting
+2024/09/20 12:14:51 [notice] 24#24: exit
+2024/09/20 12:14:51 [notice] 31#31: exiting
+2024/09/20 12:14:51 [notice] 32#32: exiting
+2024/09/20 12:14:51 [notice] 27#27: exiting
+2024/09/20 12:14:51 [notice] 22#22: exiting
+2024/09/20 12:14:51 [notice] 27#27: exit
+2024/09/20 12:14:51 [notice] 26#26: exiting
+2024/09/20 12:14:51 [notice] 23#23: exit
+2024/09/20 12:14:51 [notice] 28#28: exit
+2024/09/20 12:14:51 [notice] 30#30: exit
+2024/09/20 12:14:51 [notice] 25#25: exit
+2024/09/20 12:14:51 [notice] 31#31: exit
+2024/09/20 12:14:51 [notice] 32#32: exit
+2024/09/20 12:14:51 [notice] 22#22: exit
+2024/09/20 12:14:51 [notice] 26#26: exit
+2024/09/20 12:14:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 12:14:51 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:14:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 12:14:51 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 12:14:51 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 12:14:51 [notice] 1#1: exit
+2024/09/20 12:14:51 [notice] 1#1: using the "epoll" event method
+2024/09/20 12:14:51 [notice] 1#1: nginx/1.26.2
+2024/09/20 12:14:51 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 12:14:51 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 12:14:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 12:14:51 [notice] 1#1: start worker processes
+2024/09/20 12:14:51 [notice] 1#1: start worker process 22
+2024/09/20 12:14:51 [notice] 1#1: start worker process 23
+2024/09/20 12:14:51 [notice] 1#1: start worker process 24
+2024/09/20 12:14:51 [notice] 1#1: start worker process 25
+2024/09/20 12:14:51 [notice] 1#1: start worker process 26
+2024/09/20 12:14:51 [notice] 1#1: start worker process 27
+2024/09/20 12:14:51 [notice] 1#1: start worker process 28
+2024/09/20 12:14:51 [notice] 1#1: start worker process 29
+2024/09/20 12:14:51 [notice] 1#1: start worker process 30
+2024/09/20 12:14:51 [notice] 1#1: start worker process 31
+2024/09/20 12:14:51 [notice] 1#1: start worker process 32
+2024/09/20 12:14:57 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:14:57 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:14:57 [error] 23#23: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:15:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 12:15:46 [notice] 23#23: gracefully shutting down
+2024/09/20 12:15:46 [notice] 28#28: gracefully shutting down
+2024/09/20 12:15:46 [notice] 28#28: exiting
+2024/09/20 12:15:46 [notice] 25#25: gracefully shutting down
+2024/09/20 12:15:46 [notice] 25#25: exiting
+2024/09/20 12:15:46 [notice] 24#24: gracefully shutting down
+2024/09/20 12:15:46 [notice] 31#31: gracefully shutting down
+2024/09/20 12:15:46 [notice] 26#26: gracefully shutting down
+2024/09/20 12:15:46 [notice] 30#30: gracefully shutting down
+2024/09/20 12:15:46 [notice] 30#30: exiting
+2024/09/20 12:15:46 [notice] 27#27: gracefully shutting down
+2024/09/20 12:15:46 [notice] 27#27: exiting
+2024/09/20 12:15:46 [notice] 29#29: gracefully shutting down
+2024/09/20 12:15:46 [notice] 27#27: exit
+2024/09/20 12:15:46 [notice] 32#32: gracefully shutting down
+2024/09/20 12:15:46 [notice] 22#22: gracefully shutting down
+2024/09/20 12:15:46 [notice] 23#23: exiting
+2024/09/20 12:15:46 [notice] 28#28: exit
+2024/09/20 12:15:46 [notice] 25#25: exit
+2024/09/20 12:15:46 [notice] 24#24: exiting
+2024/09/20 12:15:46 [notice] 31#31: exiting
+2024/09/20 12:15:46 [notice] 26#26: exiting
+2024/09/20 12:15:46 [notice] 30#30: exit
+2024/09/20 12:15:46 [notice] 29#29: exiting
+2024/09/20 12:15:46 [notice] 32#32: exiting
+2024/09/20 12:15:46 [notice] 23#23: exit
+2024/09/20 12:15:46 [notice] 24#24: exit
+2024/09/20 12:15:46 [notice] 31#31: exit
+2024/09/20 12:15:46 [notice] 26#26: exit
+2024/09/20 12:15:46 [notice] 29#29: exit
+2024/09/20 12:15:46 [notice] 32#32: exit
+2024/09/20 12:15:46 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 12:15:46 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:15:46 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 12:15:46 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 12:15:46 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 12:15:46 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:15:56 [notice] 1#1: using the "epoll" event method
+2024/09/20 12:15:56 [notice] 1#1: nginx/1.26.2
+2024/09/20 12:15:56 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 12:15:56 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 12:15:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 12:15:56 [notice] 1#1: start worker processes
+2024/09/20 12:15:56 [notice] 1#1: start worker process 22
+2024/09/20 12:15:56 [notice] 1#1: start worker process 23
+2024/09/20 12:15:56 [notice] 1#1: start worker process 24
+2024/09/20 12:15:56 [notice] 1#1: start worker process 25
+2024/09/20 12:15:56 [notice] 1#1: start worker process 26
+2024/09/20 12:15:56 [notice] 1#1: start worker process 27
+2024/09/20 12:15:56 [notice] 1#1: start worker process 28
+2024/09/20 12:15:56 [notice] 1#1: start worker process 29
+2024/09/20 12:15:56 [notice] 1#1: start worker process 30
+2024/09/20 12:15:56 [notice] 1#1: start worker process 31
+2024/09/20 12:15:56 [notice] 1#1: start worker process 32
+2024/09/20 12:16:00 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:16:01 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:19:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 12:19:24 [notice] 23#23: gracefully shutting down
+2024/09/20 12:19:24 [notice] 32#32: gracefully shutting down
+2024/09/20 12:19:24 [notice] 24#24: gracefully shutting down
+2024/09/20 12:19:24 [notice] 26#26: gracefully shutting down
+2024/09/20 12:19:24 [notice] 26#26: exiting
+2024/09/20 12:19:24 [notice] 28#28: gracefully shutting down
+2024/09/20 12:19:24 [notice] 29#29: gracefully shutting down
+2024/09/20 12:19:24 [notice] 30#30: gracefully shutting down
+2024/09/20 12:19:24 [notice] 30#30: exiting
+2024/09/20 12:19:24 [notice] 27#27: gracefully shutting down
+2024/09/20 12:19:24 [notice] 22#22: gracefully shutting down
+2024/09/20 12:19:24 [notice] 22#22: exiting
+2024/09/20 12:19:24 [notice] 31#31: gracefully shutting down
+2024/09/20 12:19:24 [notice] 23#23: exiting
+2024/09/20 12:19:24 [notice] 25#25: gracefully shutting down
+2024/09/20 12:19:24 [notice] 23#23: exit
+2024/09/20 12:19:24 [notice] 32#32: exiting
+2024/09/20 12:19:24 [notice] 24#24: exiting
+2024/09/20 12:19:24 [notice] 26#26: exit
+2024/09/20 12:19:24 [notice] 28#28: exiting
+2024/09/20 12:19:24 [notice] 29#29: exiting
+2024/09/20 12:19:24 [notice] 30#30: exit
+2024/09/20 12:19:24 [notice] 29#29: exit
+2024/09/20 12:19:24 [notice] 27#27: exiting
+2024/09/20 12:19:24 [notice] 22#22: exit
+2024/09/20 12:19:24 [notice] 31#31: exiting
+2024/09/20 12:19:24 [notice] 25#25: exiting
+2024/09/20 12:19:24 [notice] 32#32: exit
+2024/09/20 12:19:24 [notice] 25#25: exit
+2024/09/20 12:19:24 [notice] 24#24: exit
+2024/09/20 12:19:24 [notice] 28#28: exit
+2024/09/20 12:19:24 [notice] 27#27: exit
+2024/09/20 12:19:24 [notice] 31#31: exit
+2024/09/20 12:19:24 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 12:19:24 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:19:24 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 12:19:24 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 12:19:24 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:19:24 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 12:19:24 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 12:19:24 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:19:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 12:19:24 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 12:19:24 [notice] 1#1: exit
+2024/09/20 12:19:25 [notice] 1#1: using the "epoll" event method
+2024/09/20 12:19:25 [notice] 1#1: nginx/1.26.2
+2024/09/20 12:19:25 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 12:19:25 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 12:19:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 12:19:25 [notice] 1#1: start worker processes
+2024/09/20 12:19:25 [notice] 1#1: start worker process 22
+2024/09/20 12:19:25 [notice] 1#1: start worker process 23
+2024/09/20 12:19:25 [notice] 1#1: start worker process 24
+2024/09/20 12:19:25 [notice] 1#1: start worker process 25
+2024/09/20 12:19:25 [notice] 1#1: start worker process 26
+2024/09/20 12:19:25 [notice] 1#1: start worker process 27
+2024/09/20 12:19:25 [notice] 1#1: start worker process 28
+2024/09/20 12:19:25 [notice] 1#1: start worker process 29
+2024/09/20 12:19:25 [notice] 1#1: start worker process 30
+2024/09/20 12:19:25 [notice] 1#1: start worker process 31
+2024/09/20 12:19:25 [notice] 1#1: start worker process 32
+2024/09/20 12:19:32 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:19:32 [error] 22#22: *1 "/usr/share/nginx/html/11/11/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /11/11/ HTTP/1.1", host: "localhost:8080"
+2024/09/20 12:20:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 12:20:28 [notice] 22#22: gracefully shutting down
+2024/09/20 12:20:28 [notice] 23#23: gracefully shutting down
+2024/09/20 12:20:28 [notice] 24#24: gracefully shutting down
+2024/09/20 12:20:28 [notice] 22#22: exiting
+2024/09/20 12:20:28 [notice] 26#26: gracefully shutting down
+2024/09/20 12:20:28 [notice] 27#27: gracefully shutting down
+2024/09/20 12:20:28 [notice] 28#28: gracefully shutting down
+2024/09/20 12:20:28 [notice] 28#28: exiting
+2024/09/20 12:20:28 [notice] 30#30: gracefully shutting down
+2024/09/20 12:20:28 [notice] 28#28: exit
+2024/09/20 12:20:28 [notice] 32#32: gracefully shutting down
+2024/09/20 12:20:28 [notice] 25#25: gracefully shutting down
+2024/09/20 12:20:28 [notice] 31#31: gracefully shutting down
+2024/09/20 12:20:28 [notice] 29#29: gracefully shutting down
+2024/09/20 12:20:28 [notice] 24#24: exiting
+2024/09/20 12:20:28 [notice] 22#22: exit
+2024/09/20 12:20:28 [notice] 26#26: exiting
+2024/09/20 12:20:28 [notice] 27#27: exiting
+2024/09/20 12:20:28 [notice] 30#30: exiting
+2024/09/20 12:20:28 [notice] 27#27: exit
+2024/09/20 12:20:28 [notice] 32#32: exiting
+2024/09/20 12:20:28 [notice] 25#25: exiting
+2024/09/20 12:20:28 [notice] 32#32: exit
+2024/09/20 12:20:28 [notice] 31#31: exiting
+2024/09/20 12:20:28 [notice] 29#29: exiting
+2024/09/20 12:20:28 [notice] 24#24: exit
+2024/09/20 12:20:28 [notice] 29#29: exit
+2024/09/20 12:20:28 [notice] 26#26: exit
+2024/09/20 12:20:28 [notice] 30#30: exit
+2024/09/20 12:20:28 [notice] 25#25: exit
+2024/09/20 12:20:28 [notice] 31#31: exit
+2024/09/20 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/09/20 12:20:28 [notice] 1#1: worker process 22 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: worker process 24 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: worker process 26 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/20 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/20 12:20:28 [notice] 1#1: worker process 25 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/09/20 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/09/20 12:20:28 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/20 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 12:20:28 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 12:20:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:20:32 [notice] 23#23: exiting
+2024/09/20 12:20:32 [notice] 23#23: exit
+2024/09/20 12:20:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/09/20 12:20:32 [notice] 1#1: worker process 23 exited with code 0
+2024/09/20 12:20:32 [notice] 1#1: exit
+2024/09/20 12:20:38 [notice] 1#1: using the "epoll" event method
+2024/09/20 12:20:38 [notice] 1#1: nginx/1.26.2
+2024/09/20 12:20:38 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/20 12:20:38 [notice] 1#1: OS: Linux 6.10.0-linuxkit
+2024/09/20 12:20:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 12:20:38 [notice] 1#1: start worker processes
+2024/09/20 12:20:38 [notice] 1#1: start worker process 29
+2024/09/20 12:20:38 [notice] 1#1: start worker process 30
+2024/09/20 12:20:38 [notice] 1#1: start worker process 31
+2024/09/20 12:20:38 [notice] 1#1: start worker process 32
+2024/09/20 12:20:38 [notice] 1#1: start worker process 33
+2024/09/20 12:20:38 [notice] 1#1: start worker process 34
+2024/09/20 12:20:38 [notice] 1#1: start worker process 35
+2024/09/20 12:20:38 [notice] 1#1: start worker process 36
+2024/09/20 12:20:38 [notice] 1#1: start worker process 37
+2024/09/20 12:20:38 [notice] 1#1: start worker process 38
+2024/09/20 12:20:38 [notice] 1#1: start worker process 39
+2024/09/20 12:28:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 12:28:59 [notice] 29#29: gracefully shutting down
+2024/09/20 12:28:59 [notice] 30#30: gracefully shutting down
+2024/09/20 12:28:59 [notice] 30#30: exiting
+2024/09/20 12:28:59 [notice] 33#33: gracefully shutting down
+2024/09/20 12:28:59 [notice] 32#32: gracefully shutting down
+2024/09/20 12:28:59 [notice] 38#38: gracefully shutting down
+2024/09/20 12:28:59 [notice] 39#39: gracefully shutting down
+2024/09/20 12:28:59 [notice] 36#36: gracefully shutting down
+2024/09/20 12:28:59 [notice] 34#34: gracefully shutting down
+2024/09/20 12:28:59 [notice] 37#37: gracefully shutting down
+2024/09/20 12:28:59 [notice] 35#35: gracefully shutting down
+2024/09/20 12:28:59 [notice] 31#31: gracefully shutting down
+2024/09/20 12:28:59 [notice] 29#29: exiting
+2024/09/20 12:28:59 [notice] 30#30: exit
+2024/09/20 12:28:59 [notice] 33#33: exiting
+2024/09/20 12:28:59 [notice] 32#32: exiting
+2024/09/20 12:28:59 [notice] 38#38: exiting
+2024/09/20 12:28:59 [notice] 39#39: exiting
+2024/09/20 12:28:59 [notice] 36#36: exiting
+2024/09/20 12:28:59 [notice] 34#34: exiting
+2024/09/20 12:28:59 [notice] 37#37: exiting
+2024/09/20 12:28:59 [notice] 35#35: exiting
+2024/09/20 12:28:59 [notice] 37#37: exit
+2024/09/20 12:28:59 [notice] 31#31: exiting
+2024/09/20 12:28:59 [notice] 29#29: exit
+2024/09/20 12:28:59 [notice] 31#31: exit
+2024/09/20 12:28:59 [notice] 33#33: exit
+2024/09/20 12:28:59 [notice] 32#32: exit
+2024/09/20 12:28:59 [notice] 38#38: exit
+2024/09/20 12:28:59 [notice] 39#39: exit
+2024/09/20 12:28:59 [notice] 36#36: exit
+2024/09/20 12:28:59 [notice] 34#34: exit
+2024/09/20 12:28:59 [notice] 35#35: exit
+2024/09/20 12:28:59 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/09/20 12:28:59 [notice] 1#1: worker process 30 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 32 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 33 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 36 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 38 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 12:28:59 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/09/20 12:28:59 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/09/20 12:28:59 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 34 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 35 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 31 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 37 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: worker process 39 exited with code 0
+2024/09/20 12:28:59 [notice] 1#1: exit
