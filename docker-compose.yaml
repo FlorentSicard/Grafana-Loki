@@ -34,6 +34,7 @@ services:
     restart: always
     ports:
       - "3000:3000"
+    command: -config.file=/etc/loki/loki.yaml
     volumes:
       - ./config/grafana/datasources/datasources.yaml:/etc/grafana/provisioning/datasources/datasources.yaml
     environment:
