@@ -10,31 +10,41 @@ services:
         loki-url: "http://localhost:3100/loki/api/v1/push"
         loki-pipeline-stages: |
           - regex:
-              expression: '(?P<remote>[^\s]\d{1,3}\.\d{1,3})\.(?P<host>\d{1,3}\.\d{1,3}) (?P<user>[^\s]*) (?P<user_auth>[^\s]*) \[(?P<time>[^\]]*)\] "(?P<method>\S+) (?P<path>[^\s]+) (?P<protocol>[^\"]+)" (?P<code>[^\s]*) (?P<size>[^ ]*) "(?P<referer>[^\"]*)" "(?P<agent>[^\"]*)"'
+              expression: '(?P<remote>[^\s]\d{1,3}\.\d{1,3})\.(?P<host>\d{1,3}\.\d{1,3}) (?P<user>[^\s]*) (?P<user_auth>[^\s]*) \[(?P<time>[^\]]*)\] "(?P<method>\S+) (?P<path>[^\s]+) (?P<protocol>[^\"]+)" (?P<code>[^\s]*) (?P<size>[^ ]*) "(?P<referer>[^\"]*)" "(?P<agent>[^\"]*)" (?P<request_time>[\d\.]+|[-])'
           - labels:
               remote:
+              host:
               time:
               method:
               path:
               protocol:
               code:
               size:
-              referer:
-              agent:
+              request_time:
+          - replace:
+              expression: '(?:\d{1,3}\.){2}(?P<host>\d{1,3}\.\d{1,3})'
+              replace: "0.0"
+          - labeldrop:
+              - host
+          - template:
+              source: path
+              template: '{{ regexReplaceAll "[0-9]+" (toString .path) "id" }}'
     ports:
       - "80:80"
     volumes:
       - ./config/nginx/conf.d/grafana_nginx.conf:/etc/nginx/conf.d/grafana_nginx.conf
+    depends_on:
+      - grafana
+      - loki
     networks:
       - grafana-loki
-  
+
   grafana:
     image: grafana/grafana:main
     container_name: grafana
     restart: always
     ports:
       - "3000:3000"
-    command: -config.file=/etc/loki/loki.yaml
     volumes:
       - ./config/grafana/datasources/datasources.yaml:/etc/grafana/provisioning/datasources/datasources.yaml
     environment:
@@ -51,11 +61,16 @@ services:
     restart: always
     ports:
       - "3100:3100"
+    command: -config.file=/etc/loki/loki.yaml
     volumes:
       - ./config/loki/loki.yaml:/etc/loki/loki.yaml
+        #- loki-data:/data
     networks:
       - grafana-loki
 
 networks:
   grafana-loki:
     name: grafana-loki
+
+      #volumes:
+  #loki-data:

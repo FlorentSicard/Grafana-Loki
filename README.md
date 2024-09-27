@@ -1,8 +1,8 @@
 # Grafana-Loki
 
-Récuperation de logs avec Loki, l'agent Promtail et envoi sur Grafana pour lecture  
+Récuperation de logs des conteneurs Docker avec Loki et le Docker Logging Driver puis envoi sur Grafana pour lecture.
+Configuration pour mise en place sur serveur AWS (instance EC2 et Bucket S3)
 
-Grafana UI = http://localhost:3000/   
-Nginx = port 8080
+
 
 

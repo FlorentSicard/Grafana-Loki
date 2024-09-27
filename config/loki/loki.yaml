@@ -30,9 +30,12 @@ storage_config:
    s3: s3://eu-west-3
    bucketnames: grafanalokipromtail
 
-#compactor:
-#    working_directory: /data/retention
-#    compaction_interval: 10m
-#    retention_enabled: true
-#    limits_config:
-#      retention_period: 2160h # = 90 jours
+limits_config:
+  max_query_lookback: 2160h
+  retention_period: 2160h
+
+    #compactor:
+  #working_directory: /data/retention
+    #delete_request_store: s3
+    #retention_enabled: true
+    #retention_delete_delay: 2h
