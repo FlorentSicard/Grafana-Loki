@@ -8,6 +8,14 @@ datasources:
     version: 1
     editable: false
     isDefault: true
-  - name: TestData
+
+  - name: Test
+    type: loki
+    access: proxy
+    url: http://loki:3100
+    basicAuth: false
     isDefault: false
-    type: testdata
+    jsonData:
+      httpHeaderName1: "X-Scope-OrgID"
+    secureJsonData:
+      httpHeaderValue1: "1"
