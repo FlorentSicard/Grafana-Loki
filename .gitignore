@@ -1,2 +1,1 @@
-/nginx_logs
-/logs
+/packer_ec2/variables.pkrvars.hcl
