@@ -44,7 +44,7 @@ module "s3_bucket" {
   restrict_public_buckets = false
 }
 
-resource "aws_lb_target_group" "loki_tg" { // Target Group A
+resource "aws_lb_target_group" "loki_tg" { 
  name     = "target-group_loki"
  port     = 80
  protocol = "HTTP"
@@ -60,6 +60,7 @@ resource "aws_lb" "loki_lb" {
  name               = "loki_lb"
  internal           = false
  load_balancer_type = "application"
+ # subnets = ["subnet-"]
  
  tags = {
    Environment = "dev"
