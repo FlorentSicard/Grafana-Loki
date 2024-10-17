@@ -1,3 +1,7 @@
+locals {
+  timestamp = regex_replace(timestamp(), "[- TZ:]", "")
+}
+
 packer {
   required_plugins {
     amazon = {
@@ -8,10 +12,8 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name              = "${var.ami_prefix}-${local.timstamp}"
-  AWS_ACCESS_KEY_ID     = "${var.access_key}"
-  AWS_SECRET_ACCESS_KEY = "${var.secret_key}"
-  instance_type         = "t3.micro"
+  ami_name              = "loki-${local.timestamp}"
+  instance_type         = "t3.small"
   region                = "eu-west-3"
   source_ami_filter {
     filters = {
@@ -22,18 +24,19 @@ source "amazon-ebs" "ubuntu" {
     most_recent = true
     owners      = ["099720109477"]
   }
-  ssh_username = "loki"
+  ssh_username = "ubuntu"
 }
 
 build {
-  name = "${var.ami_prefix}-${local.timestamp}"
+  name = "loki-${local.timestamp}"
   sources = [
     "source.amazon-ebs.ubuntu"
   ]
 
   provisioner "shell" {
     inline = [
-      "sudo apt-get update"
+      "apt-get update"
+      "apt-get install loki promtail"
     ]
   }
 }
