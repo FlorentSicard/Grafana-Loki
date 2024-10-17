@@ -33,10 +33,39 @@ build {
     "source.amazon-ebs.ubuntu"
   ]
 
+  provisioner "file" {
+    source = "./loki/config/loki/loki.yaml"
+    destination = "/tmp/loki.yaml"
+  }
+
+  provisioner "file" {
+    source =  "./loki/config/grafana/datasources/datasources.yaml"
+    destination = "/tmp/datasources.yaml"
+  }
+
+  provisioner "file" {
+    source = "./loki/nginx/conf.d/grafana_nginx.conf"
+    destination = "/tmp/conf.d/grafana_nginx.conf"
+  }
+
   provisioner "shell" {
     inline = [
-      "apt-get update"
-      "apt-get install loki promtail"
+      "sudo apt-get install -y apt-transport-https software-properties-common wget",
+      "sudo mkdir -p /etc/apt/keyrings/",
+      "wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt/keyrings/grafana.gpg > /dev/null",
+      "echo \"deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main\" | sudo tee -a /etc/apt/sources.list.d/grafana.list",
+      "sudo apt-get update",
+      "sudo apt-get install grafana",
+      "sudo mv /tmp/datasources.yaml /etc/grafana/provisioning/datasources/datasources.yaml",
+      "sudo apt-get install loki",
+      "sudo mv /tmp/loki.yaml /etc/loki/loki.yaml",
+      "sudo apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring",
+      "curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null",
+      "echo \"deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx\" | sudo tee /etc/apt/sources.list.d/nginx.list",
+      "echo -e \"Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n\" | sudo tee /etc/apt/preferences.d/99nginx",
+      "sudo apt update",
+      "sudo apt install nginx",
+      "sudo mv /tmp/conf.d/grafana_nginx.conf /etc/nginx/conf.d/grafana_nginx.conf"
     ]
   }
 }
