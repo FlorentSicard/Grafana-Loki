@@ -60,7 +60,10 @@ build {
       "echo \"deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/debian `lsb_release -cs` nginx\" | sudo tee /etc/apt/sources.list.d/nginx.list",
       "sudo apt update",
       "sudo apt install -y nginx",
-      "sudo mv /tmp/config/grafana_nginx.conf /etc/nginx/conf.d/default.conf"
+      "sudo mv /tmp/config/grafana_nginx.conf /etc/nginx/conf.d/default.conf",
+      "sudo systemctl daemon-reload",
+      "sudo systemctl start grafana-server",
+      "sudo systemctl enable grafana-server.service"
     ]
   }
 
