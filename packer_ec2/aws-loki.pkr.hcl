@@ -40,7 +40,7 @@ build {
   }
 
   provisioner "file" {
-    source      = "./config/"
+    source      = "config"
     destination = "/tmp/"
   }
 
@@ -52,15 +52,15 @@ build {
       "echo \"deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main\" | sudo tee -a /etc/apt/sources.list.d/grafana.list",
       "sudo apt-get update",
       "sudo apt-get install -y grafana",
-      "sudo mv /tmp/datasources.yaml /etc/grafana/provisioning/datasources/datasources.yaml",
+      "sudo mv /tmp/config/datasources.yaml /etc/grafana/provisioning/datasources/datasources.yaml",
       "sudo apt-get install loki",
-      "sudo mv /tmp/loki.yaml /etc/loki/local-config.yaml",
+      "sudo mv /tmp/config/loki.yaml /etc/loki/local-config.yaml",
       "sudo apt install -y curl gnupg2 ca-certificates lsb-release ubuntu-keyring",
       "curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null",
       "echo \"deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/debian `lsb_release -cs` nginx\" | sudo tee /etc/apt/sources.list.d/nginx.list",
       "sudo apt update",
       "sudo apt install -y nginx",
-      "sudo mv /tmp/grafana_nginx.conf /etc/nginx/conf.d/default.conf"
+      "sudo mv /tmp/config/grafana_nginx.conf /etc/nginx/conf.d/default.conf"
     ]
   }
 
